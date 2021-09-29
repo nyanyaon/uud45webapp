@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Halant:wght@300;400;500;600;700&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --bg-white: #fbfbfb;
+  --text-dark: #343434;
+  --text-white: #fff;
+}
+
+body {
+  font-family: "Halant", serif;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  color: var(--text-dark);
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 1.75rem;
+}
+
+p {
+  font-size: 1rem;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+/* Reset */
+
+.sidebar {
+  position: fixed;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  background: var(--bg-white);
+  width: 20vw;
+  height: 100vh;
+  padding: 1.25rem;
+}
+
+.sidebar > hr {
+  border: 1px solid var(--text-dark);
+}
+
+.brand {
+  font-size: 2rem;
+}
+
+.brand-name {
+  font-weight: 700;
+}
+
+.sidebar-nav {
+  overflow-y: auto;
+  overflow-x: hidden;
+  font-size: 1.25rem;
+  height: 80vh;
+}
+
+.nav {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.nav > li > a {
+  display: block;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  color: var(--text-dark);
+}
+
+.nav > li > a:hover {
+  background: #bebebe;
+}
+
+/* Sidebar Footer */
+footer {
+  height: 10vh;
+}
+
+.heart {
+  color: red;
+}
+
+/* Sidebar */
+
+main {
+  float: right;
+  width: 960px;
+  margin: 0 2rem;
+  padding: 2rem;
+}
+
+main > article > h1 {
+  text-align: center;
+}

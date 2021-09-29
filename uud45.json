@@ -1,0 +1,73 @@
+{
+    "1" : {
+        "BAB": "BAB I",
+        "title": "BENTUK DAN KEDAULATAN",
+        "pasal": [{
+            "no": "1",
+            "ayat": [
+                "Negara Indonesia ialah Negara Kesatuan, yang berbentuk Republik.",
+                "Kedaulatan berada di tangan rakyat dan dilaksanakan menurut Undang-Undang Dasar.***",
+                "Negara Indonesia adalah negara hukum. ***"
+            ]
+        }]
+    },
+    "2" : {
+        "BAB": "BAB II",
+        "title": "MAJELIS PERMUSYAWARATAN RAKYAT",
+        "pasal": [
+            {
+                "no": "2",
+                "ayat": [
+                    "Majelis Permusyawaratan Rakyat terdiri atas anggota Dewan Perwakilan Rakyat dan anggota Dewan Perwakilan Daerah yang dipilih melalui pemilihan umum dan diatur lebih lanjut dengan undangundang.****",
+                    "Majelis Permusyawaratan Rakyat bersidang sedikitnya sekali dalam lima tahun di ibukota negara.",
+                    "Segala putusan Majelis Permusyawaratan Rakyat ditetapkan dengan suara yang terbanyak."
+                ]
+            },
+            {
+                "no": "3",
+                "ayat": [
+                    "Majelis Permusyawaratan Rakyat berwenang mengubah dan menetapkan Undang Undang Dasar. ***",
+                    "Majelis Permusyawaratan Rakyat melantik Presiden dan/atau Wakil Presiden. ***/****",
+                    "Majelis Permus yawaratan Rakyat hanya dap at memberhentikan Presiden dan/atau Wakil Presiden dalam masa jabatannya menurut UndangUndang Dasar. ***/****"
+                ]
+            }
+        ]
+    },
+    "3" : {
+        "BAB": "BAB III",
+        "title": "KEKUASAAN PEMERINTAH",
+        "pasal": [
+            {
+                "no": "4",
+                "ayat": [
+                    "Presiden Republik Indonesia memegang kekuasaan pemerintahan menurut Undang Undang Dasar.",
+                    "Dalam melakukan kewajibannya Presiden dibantu oleh satu orang Wakil Presiden."
+                ]
+            },
+            {
+                "no": "5",
+                "ayat": [
+                    "Presiden berhak mengajukan rancangan undangundang kepada Dewan Perwakilan Rakyat. *",
+                    "Presiden menetapkan peraturan pemerintah untuk menjalankan undangundang sebagaimana mestinya."
+                ]
+            },
+            {
+                "no": "6",
+                "ayat": [
+                    "Calon Presiden dan calon Wakil Presiden harus seorang warga negara Indonesia sejak kelahirannya dan tidak pernah menerima kewarganegaraan lain karena kehendaknya sendiri, tidak pernah mengkhianati negara, serta mampu secara rohani dan jasmani untuk melaksanakan tugas dan kewajiban sebagai Presiden dan Wakil Presiden. **",
+                    "Syarat syarat untuk menjadi Presiden dan Wakil Presiden diatur lebih lanjut dengan undangundang. ***"
+                ]
+            },
+            {
+                "no": "6A",
+                "ayat": [
+                    "Presiden dan Wakil Presiden dipilih dalam satu pasangan secara langsung oleh rakyat.***",
+                    " Pasangan calon Presiden dan Wakil Presiden diusulkan oleh partai politik atau gabungan partai politik peserta pemilihan umum sebelum pelaksanaan pemilihan umum. ***",
+                    "Pasangan calon Presiden dan Wakil Presiden yang mendapatkan suara lebih dari lima puluh persen dari jumlah suara dalam pemilihan umum dengan sedikitnya dua puluh persen suara di setiap provinsi yang tersebar di lebih dari setengah jumlah provinsi di Indonesia, dilantik menjadi Presiden dan Wakil Presiden. ***",
+                    "Dalam hal tidak ada pasangan calon Presiden dan Wakil Presiden terpilih, dua pasangan calon yang memperoleh suara terbanyak pertama dan kedua dalam pemilihan umum dipilih oleh rakyat secara langsung dan pasangan yang memperoleh suara rakyat terbanyak dilantik sebagai Presiden dan Wakil Presiden. ****",
+                    "Tata cara pelaksanaan pemilihan Presiden dan Wakil Presiden lebih lanjut diatur dalam undangundang. ***"
+                ]
+            }
+        ]
+    }
+}
