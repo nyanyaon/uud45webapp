@@ -15,9 +15,10 @@ function createH(text) {
     return h;
 }
 
-function createP(text) {
+function createP(text, order) {
     let p = document.createElement("p");
     p.innerText = text;
+    p.style.cssText += `--order: ${order+1}`;
 
     return p;
 }
@@ -33,8 +34,8 @@ async function renderData(bab) {
     for(item of pasal) {
         console.log(item);
         article.appendChild(createH(item["no"]));
-        for(ayat of item["ayat"]) {
-            article.appendChild(createP(ayat));
+        for(let order in item["ayat"]) {
+            article.appendChild(createP(item["ayat"][order], order));
         }
     }
 }

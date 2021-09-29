@@ -19,9 +19,25 @@ h1 {
   font-size: 1.75rem;
 }
 
+h2 {
+  font-size: 1.5rem;
+  animation: slidein 0.6s ease-out;
+}
+
 p {
   font-size: 1rem;
   font-family: "Nunito Sans", sans-serif;
+  animation: slidein calc(var(--order) * 0.1s) ease;
+}
+
+@keyframes slidein {
+  from {
+    transform: translateY(50%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
 }
 
 /* Reset */
@@ -72,6 +88,7 @@ p {
   border-radius: 0.25rem;
   text-decoration: none;
   color: var(--text-dark);
+  animation: slidein 0.5s ease-out;
 }
 
 .nav > li > a:hover {
