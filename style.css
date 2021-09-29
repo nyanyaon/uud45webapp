@@ -88,7 +88,7 @@ p {
   border-radius: 0.25rem;
   text-decoration: none;
   color: var(--text-dark);
-  animation: slidein 0.5s ease-out;
+  animation: slidein 0.6s ease-out;
 }
 
 .nav > li > a:hover {
