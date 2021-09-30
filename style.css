@@ -13,6 +13,7 @@ body {
   padding: 0;
   color: var(--text-dark);
   line-height: 1.5;
+  display: flex;
 }
 
 h1 {
@@ -43,10 +44,11 @@ p {
 /* Reset */
 
 .sidebar {
-  position: fixed;
+  position: sticky;
   box-sizing: border-box;
   top: 0;
   left: 0;
+  order: -1;
   background: var(--bg-white);
   width: 20vw;
   height: 100vh;
@@ -86,13 +88,21 @@ p {
   font-weight: 500;
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
+  margin-bottom: 0.25rem;
   text-decoration: none;
   color: var(--text-dark);
   animation: slidein 0.6s ease-out;
+  transition: all 0.2s ease;
 }
 
 .nav > li > a:hover {
   background: #bebebe;
+}
+
+.selected {
+  background: #bebebe;
+  font-size: 1.3rem;
+  font-weight: 600 !important;
 }
 
 /* Sidebar Footer */
