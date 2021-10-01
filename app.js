@@ -99,7 +99,6 @@ function setEvent() {
 }
 
 function focusOn(e) {
-    console.log(e.parentElement.parentElement.children);
     for(let li of e.parentElement.parentElement.children) {
         let a = li.querySelector("a");
         a.classList.remove("selected");
@@ -110,5 +109,11 @@ function focusOn(e) {
 document.addEventListener("DOMContentLoaded", async function(e) {
     getMenu();
     addClickMenuEvent();
+});
+
+window.addEventListener("load", () => {
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("service-worker.js");
+    }
 });
 

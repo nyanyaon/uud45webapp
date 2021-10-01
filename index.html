@@ -1,83 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-status-bar" content="#FFE1C4" />
+    <meta name="theme-color" content="#FFE1C4" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="manifest" href="./manifest.json" />
     <title>UUD45 WebApp</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-</head>
-<header class="header">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <header class="header">
     <button id="menu-btn" class="open-btn">
-        <i class="fas fa-bars"></i>
+      <i class="fas fa-bars"></i>
     </button>
     <div class="header-brand">
-        <svg width="40" height="40" class="icon" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect width="90" height="90" rx="12" fill="#2B2B2B"/>
-            <circle cx="28" cy="23" r="3" fill="white"/>
-            <circle cx="62" cy="23" r="3" fill="white"/>
-            <circle cx="45" cy="29" r="4" fill="white"/>
-            <path d="M48 22.8C48 24.5673 46.6569 26 45 26C43.3431 26 42 24.5673 42 22.8C42 21.0327 45 18 45 18C45 18 48 21.0327 48 22.8Z" fill="white"/>
-            <path d="M28 49C32.9706 49 37 44.9706 37 40H19C19 44.9706 23.0294 49 28 49Z" fill="white"/>
-            <path d="M62 49C66.9706 49 71 44.9706 71 40H53C53 44.9706 57.0294 49 62 49Z" fill="white"/>
-            <path d="M29.3131 28.412L35.4501 39.5249C36.0022 40.5246 35.2791 41.75 34.1371 41.75H21.8629C20.7209 41.75 19.9978 40.5246 20.5499 39.5249L26.6869 28.412C27.2575 27.3788 28.7425 27.3788 29.3131 28.412Z" stroke="white"/>
-            <path d="M63.3131 28.412L69.4501 39.5249C70.0022 40.5246 69.2791 41.75 68.1371 41.75H55.8629C54.7209 41.75 53.9978 40.5246 54.5499 39.5249L60.6869 28.412C61.2575 27.3788 62.7425 27.3788 63.3131 28.412Z" stroke="white"/>
-            <path d="M28 23C28 23 32 18.5 37 18.5C42 18.5 45 23 45 23" stroke="white" stroke-width="2"/>
-            <path d="M45 23.5C45 23.5 49 19 54 19C59 19 62 23.5 62 23.5" stroke="white" stroke-width="2"/>
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M49 36C49 37.0909 48.1956 38.0434 47 38.5531V56.8831C49.3304 57.4901 51 59.1277 51 61.0526H56.0526C57.6804 61.0526 59 62.3722 59 64H30C30 62.3722 31.3196 61.0526 32.9474 61.0526H39C39 59.1277 40.6696 57.4901 43 56.8831V38.5531C41.8044 38.0434 41 37.0909 41 36H43H47H49Z" fill="white"/>
-            <rect x="24" y="67" width="42" height="4" rx="2" fill="white"/>
-        </svg>       
-        <span class="brand-name">UUD 1945</span>
+      <svg
+        width="40"
+        height="40"
+        class="icon"
+        viewBox="0 0 90 90"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <rect width="90" height="90" rx="12" fill="#2B2B2B" />
+        <circle cx="28" cy="23" r="3" fill="white" />
+        <circle cx="62" cy="23" r="3" fill="white" />
+        <circle cx="45" cy="29" r="4" fill="white" />
+        <path
+          d="M48 22.8C48 24.5673 46.6569 26 45 26C43.3431 26 42 24.5673 42 22.8C42 21.0327 45 18 45 18C45 18 48 21.0327 48 22.8Z"
+          fill="white"
+        />
+        <path
+          d="M28 49C32.9706 49 37 44.9706 37 40H19C19 44.9706 23.0294 49 28 49Z"
+          fill="white"
+        />
+        <path
+          d="M62 49C66.9706 49 71 44.9706 71 40H53C53 44.9706 57.0294 49 62 49Z"
+          fill="white"
+        />
+        <path
+          d="M29.3131 28.412L35.4501 39.5249C36.0022 40.5246 35.2791 41.75 34.1371 41.75H21.8629C20.7209 41.75 19.9978 40.5246 20.5499 39.5249L26.6869 28.412C27.2575 27.3788 28.7425 27.3788 29.3131 28.412Z"
+          stroke="white"
+        />
+        <path
+          d="M63.3131 28.412L69.4501 39.5249C70.0022 40.5246 69.2791 41.75 68.1371 41.75H55.8629C54.7209 41.75 53.9978 40.5246 54.5499 39.5249L60.6869 28.412C61.2575 27.3788 62.7425 27.3788 63.3131 28.412Z"
+          stroke="white"
+        />
+        <path
+          d="M28 23C28 23 32 18.5 37 18.5C42 18.5 45 23 45 23"
+          stroke="white"
+          stroke-width="2"
+        />
+        <path
+          d="M45 23.5C45 23.5 49 19 54 19C59 19 62 23.5 62 23.5"
+          stroke="white"
+          stroke-width="2"
+        />
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M49 36C49 37.0909 48.1956 38.0434 47 38.5531V56.8831C49.3304 57.4901 51 59.1277 51 61.0526H56.0526C57.6804 61.0526 59 62.3722 59 64H30C30 62.3722 31.3196 61.0526 32.9474 61.0526H39C39 59.1277 40.6696 57.4901 43 56.8831V38.5531C41.8044 38.0434 41 37.0909 41 36H43H47H49Z"
+          fill="white"
+        />
+        <rect x="24" y="67" width="42" height="4" rx="2" fill="white" />
+      </svg>
+      <span class="brand-name">UUD 1945</span>
     </div>
-</header>
-<body>
+  </header>
+  <body>
     <main>
-        <article id="article">
-            <h1>UNDANG-UNDANG DASAR NEGARA REPUBLIK INDONESIA TAHUN 1945 <br> Pembukaan (Preambule)</h1>
-            <p>Bahwa sesungguhnya Kemerdekaan itu ialah hak segala bangsa dan oleh sebab itu, maka penjajahan di atas dunia harus dihapuskan, karena tidak sesuai dengan perikemanusiaan dan perikeadilan.</p>
-            <p>Dan perjuangan pergerakan kemerdekaan Indonesia telah sampailah kepada saat yang berbahagia dengan selamat sentausa mengantarkan rakyat Indonesia ke depan pintu gerbang kemerdekaan Negara Indonesia, yang merdeka, bersatu, berdaulat, adil dan makmur.</p>
-            <p>Atas berkat rakhmat Allah Yang Maha Kuasa dan dengan didorongkan oleh keinginan luhur, supaya berkehidupan kebangsaan yang bebas, maka rakyat Indonesia menyatakan dengan ini kemerdekaannya.</p>
-            <p>Kemudian daripada itu untuk membentuk suatu Pemerintah Negara Indonesia yang melindungi segenap bangsa Indonesia dan seluruh tumpah darah Indonesia dan untuk memajukan kesejahteraan umum, mencerdaskan kehidupan bangsa, dan ikut melaksanakan ketertiban dunia yang berdasarkan kemerdekaan, perdamaian abadi dan keadilan sosial, maka disusunlah Kemerdekaan Kebangsaan Indonesia itu dalam suatu Undang-Undang Dasar Negara Indonesia, yang terbentuk dalam suatu susunan Negara Republik Indonesia yang berkedaulatan rakyat dengan berdasar kepada Ketuhanan Yang Maha Esa, Kemanusiaan yang adil dan beradab, Persatuan Indonesia dan Kerakyatan yang dipimpin oleh hikmat kebijaksanaan dalam Permusyawaratan/Perwakilan, serta dengan mewujudkan suatu Keadilan sosial bagi seluruh rakyat Indonesia.</p>
-        </article>
+      <article id="article">
+        <h1>
+          UNDANG-UNDANG DASAR NEGARA REPUBLIK INDONESIA TAHUN 1945 <br />
+          Pembukaan (Preambule)
+        </h1>
+        <p>
+          Bahwa sesungguhnya Kemerdekaan itu ialah hak segala bangsa dan oleh
+          sebab itu, maka penjajahan di atas dunia harus dihapuskan, karena
+          tidak sesuai dengan perikemanusiaan dan perikeadilan.
+        </p>
+        <p>
+          Dan perjuangan pergerakan kemerdekaan Indonesia telah sampailah kepada
+          saat yang berbahagia dengan selamat sentausa mengantarkan rakyat
+          Indonesia ke depan pintu gerbang kemerdekaan Negara Indonesia, yang
+          merdeka, bersatu, berdaulat, adil dan makmur.
+        </p>
+        <p>
+          Atas berkat rakhmat Allah Yang Maha Kuasa dan dengan didorongkan oleh
+          keinginan luhur, supaya berkehidupan kebangsaan yang bebas, maka
+          rakyat Indonesia menyatakan dengan ini kemerdekaannya.
+        </p>
+        <p>
+          Kemudian daripada itu untuk membentuk suatu Pemerintah Negara
+          Indonesia yang melindungi segenap bangsa Indonesia dan seluruh tumpah
+          darah Indonesia dan untuk memajukan kesejahteraan umum, mencerdaskan
+          kehidupan bangsa, dan ikut melaksanakan ketertiban dunia yang
+          berdasarkan kemerdekaan, perdamaian abadi dan keadilan sosial, maka
+          disusunlah Kemerdekaan Kebangsaan Indonesia itu dalam suatu
+          Undang-Undang Dasar Negara Indonesia, yang terbentuk dalam suatu
+          susunan Negara Republik Indonesia yang berkedaulatan rakyat dengan
+          berdasar kepada Ketuhanan Yang Maha Esa, Kemanusiaan yang adil dan
+          beradab, Persatuan Indonesia dan Kerakyatan yang dipimpin oleh hikmat
+          kebijaksanaan dalam Permusyawaratan/Perwakilan, serta dengan
+          mewujudkan suatu Keadilan sosial bagi seluruh rakyat Indonesia.
+        </p>
+      </article>
     </main>
     <aside id="sidebar" class="sidebar">
-        <div class="brand">
-            <svg width="40" height="40" class="icon" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect width="90" height="90" rx="12" fill="#2B2B2B"/>
-                <circle cx="28" cy="23" r="3" fill="white"/>
-                <circle cx="62" cy="23" r="3" fill="white"/>
-                <circle cx="45" cy="29" r="4" fill="white"/>
-                <path d="M48 22.8C48 24.5673 46.6569 26 45 26C43.3431 26 42 24.5673 42 22.8C42 21.0327 45 18 45 18C45 18 48 21.0327 48 22.8Z" fill="white"/>
-                <path d="M28 49C32.9706 49 37 44.9706 37 40H19C19 44.9706 23.0294 49 28 49Z" fill="white"/>
-                <path d="M62 49C66.9706 49 71 44.9706 71 40H53C53 44.9706 57.0294 49 62 49Z" fill="white"/>
-                <path d="M29.3131 28.412L35.4501 39.5249C36.0022 40.5246 35.2791 41.75 34.1371 41.75H21.8629C20.7209 41.75 19.9978 40.5246 20.5499 39.5249L26.6869 28.412C27.2575 27.3788 28.7425 27.3788 29.3131 28.412Z" stroke="white"/>
-                <path d="M63.3131 28.412L69.4501 39.5249C70.0022 40.5246 69.2791 41.75 68.1371 41.75H55.8629C54.7209 41.75 53.9978 40.5246 54.5499 39.5249L60.6869 28.412C61.2575 27.3788 62.7425 27.3788 63.3131 28.412Z" stroke="white"/>
-                <path d="M28 23C28 23 32 18.5 37 18.5C42 18.5 45 23 45 23" stroke="white" stroke-width="2"/>
-                <path d="M45 23.5C45 23.5 49 19 54 19C59 19 62 23.5 62 23.5" stroke="white" stroke-width="2"/>
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M49 36C49 37.0909 48.1956 38.0434 47 38.5531V56.8831C49.3304 57.4901 51 59.1277 51 61.0526H56.0526C57.6804 61.0526 59 62.3722 59 64H30C30 62.3722 31.3196 61.0526 32.9474 61.0526H39C39 59.1277 40.6696 57.4901 43 56.8831V38.5531C41.8044 38.0434 41 37.0909 41 36H43H47H49Z" fill="white"/>
-                <rect x="24" y="67" width="42" height="4" rx="2" fill="white"/>
-            </svg>                
-            <span class="brand-name">UUD 1945</span>
-            <button id="close-btn" class="close-btn"><i class="fas fa-times"></i></button>
-        </div>
-        <hr>
-        <nav class="sidebar-nav">
-            <ul id="list-menu" class="nav">
-                <li><a href="." class="selected">PEMBUKAAN</a></li>
-            </ul>
-        </nav>
-        <footer>
-            <hr>
-            <p>
-                &copy; Copyright 2021 made with <i class="fas fa-heart heart"></i>
-            </p>
-        </footer>
+      <div class="brand">
+        <svg
+          width="40"
+          height="40"
+          class="icon"
+          viewBox="0 0 90 90"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect width="90" height="90" rx="12" fill="#2B2B2B" />
+          <circle cx="28" cy="23" r="3" fill="white" />
+          <circle cx="62" cy="23" r="3" fill="white" />
+          <circle cx="45" cy="29" r="4" fill="white" />
+          <path
+            d="M48 22.8C48 24.5673 46.6569 26 45 26C43.3431 26 42 24.5673 42 22.8C42 21.0327 45 18 45 18C45 18 48 21.0327 48 22.8Z"
+            fill="white"
+          />
+          <path
+            d="M28 49C32.9706 49 37 44.9706 37 40H19C19 44.9706 23.0294 49 28 49Z"
+            fill="white"
+          />
+          <path
+            d="M62 49C66.9706 49 71 44.9706 71 40H53C53 44.9706 57.0294 49 62 49Z"
+            fill="white"
+          />
+          <path
+            d="M29.3131 28.412L35.4501 39.5249C36.0022 40.5246 35.2791 41.75 34.1371 41.75H21.8629C20.7209 41.75 19.9978 40.5246 20.5499 39.5249L26.6869 28.412C27.2575 27.3788 28.7425 27.3788 29.3131 28.412Z"
+            stroke="white"
+          />
+          <path
+            d="M63.3131 28.412L69.4501 39.5249C70.0022 40.5246 69.2791 41.75 68.1371 41.75H55.8629C54.7209 41.75 53.9978 40.5246 54.5499 39.5249L60.6869 28.412C61.2575 27.3788 62.7425 27.3788 63.3131 28.412Z"
+            stroke="white"
+          />
+          <path
+            d="M28 23C28 23 32 18.5 37 18.5C42 18.5 45 23 45 23"
+            stroke="white"
+            stroke-width="2"
+          />
+          <path
+            d="M45 23.5C45 23.5 49 19 54 19C59 19 62 23.5 62 23.5"
+            stroke="white"
+            stroke-width="2"
+          />
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M49 36C49 37.0909 48.1956 38.0434 47 38.5531V56.8831C49.3304 57.4901 51 59.1277 51 61.0526H56.0526C57.6804 61.0526 59 62.3722 59 64H30C30 62.3722 31.3196 61.0526 32.9474 61.0526H39C39 59.1277 40.6696 57.4901 43 56.8831V38.5531C41.8044 38.0434 41 37.0909 41 36H43H47H49Z"
+            fill="white"
+          />
+          <rect x="24" y="67" width="42" height="4" rx="2" fill="white" />
+        </svg>
+        <span class="brand-name">UUD 1945</span>
+        <button id="close-btn" class="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <hr />
+      <nav class="sidebar-nav">
+        <ul id="list-menu" class="nav">
+          <li><a href="." class="selected">PEMBUKAAN</a></li>
+        </ul>
+      </nav>
+      <footer>
+        <hr />
+        <p>
+          &copy; Copyright 2021 made with <i class="fas fa-heart heart"></i>
+        </p>
+      </footer>
     </aside>
     <script src="./app.js"></script>
-</body>
+  </body>
 </html>
