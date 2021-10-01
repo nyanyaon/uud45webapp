@@ -132,10 +132,10 @@ window.addEventListener('beforeinstallprompt', (e) => {
 });
 
 window.addEventListener('appinstalled', () => {
+    installBtn.style.display = "none";
     // Clear the deferredPrompt so it can be garbage collected
     deferredPrompt = null;
     // Optionally, send analytics event to indicate successful install
-    installBtn.style.display = "none";
     console.log("app has installed");
 });
 
