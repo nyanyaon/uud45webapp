@@ -16,13 +16,14 @@
   "theme_color": "#fbfbfb",
   "background_color": "#ffffff",
   "display": "standalone",
-  "start_url": "/index.html",
+  "start_url": "/",
+  "scope": "/",
   "shortcuts": [
     {
       "name": "UUD 1945 WebApp",
       "short_name": "UUD45 WebApp",
       "description": "Constituion Of Indonesia In WebApp",
-      "url": "/index.html",
+      "url": "/",
       "icons": [{ "src": "/android-chrome-192x192.png", "sizes": "192x192" }]
     }
   ],
