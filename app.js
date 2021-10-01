@@ -7,7 +7,7 @@ function addClickMenuEvent() {
         sidebar.classList.toggle("mobile-only");
         setTimeout(()=>{
             sidebar.style.opacity = 1;
-        }, 20)
+        }, 200)
     });
 }
 

@@ -188,6 +188,10 @@ main > article > h1 {
     font-size: 0.9rem;
   }
 
+  h1 {
+    font-size: 1.25rem;
+  }
+
   main {
     width: 80vw;
     margin: 0 auto;
