@@ -5,7 +5,6 @@ const assets = [
   '/app.js',
   '/style.css',
   '/uud45.json',
-  'https://fonts.googleapis.com/css?family=Lato:300,400,700',
 ];
 // install event
 self.addEventListener('install', evt => {

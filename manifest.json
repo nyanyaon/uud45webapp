@@ -20,8 +20,8 @@
   "scope": "/",
   "shortcuts": [
     {
-      "name": "UUD 1945 WebApp",
-      "short_name": "UUD45 WebApp",
+      "name": "Home",
+      "short_name": "Open Me",
       "description": "Constituion Of Indonesia In WebApp",
       "url": "/",
       "icons": [{ "src": "/android-chrome-192x192.png", "sizes": "192x192" }]

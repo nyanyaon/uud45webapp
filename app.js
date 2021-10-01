@@ -131,6 +131,13 @@ window.addEventListener('beforeinstallprompt', (e) => {
   console.log(`'beforeinstallprompt' event was fired.`);
 });
 
+window.addEventListener('appinstalled', () => {
+    // Clear the deferredPrompt so it can be garbage collected
+    deferredPrompt = null;
+    // Optionally, send analytics event to indicate successful install
+    installBtn.style.display = "none";
+  });
+
 installBtn.addEventListener('click', async () => {
     // Hide the app provided install promotion
 
