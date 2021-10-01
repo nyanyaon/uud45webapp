@@ -136,7 +136,8 @@ window.addEventListener('appinstalled', () => {
     deferredPrompt = null;
     // Optionally, send analytics event to indicate successful install
     installBtn.style.display = "none";
-  });
+    console.log("app has installed");
+});
 
 installBtn.addEventListener('click', async () => {
     // Hide the app provided install promotion
