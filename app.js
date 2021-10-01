@@ -5,6 +5,9 @@ function addClickMenuEvent() {
 
     btn.addEventListener("click", (e) => {
         sidebar.classList.toggle("mobile-only");
+        setTimeout(()=>{
+            sidebar.style.opacity = 1;
+        }, 20)
     });
 }
 
@@ -79,7 +82,10 @@ function setEvent() {
             let bab = li.dataset.bab;
             renderData(bab);
             focusOn(e.target);
-            sidebar.classList.toggle("mobile-only");
+            sidebar.style.opacity = 0;
+            setTimeout(()=>{
+                sidebar.classList.toggle("mobile-only");
+            }, 200)
         });
     });
 }
