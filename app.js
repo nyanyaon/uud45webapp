@@ -82,7 +82,7 @@ function setEvent() {
             let bab = li.dataset.bab;
             renderData(bab);
             focusOn(e.target);
-            sidebar.style.opacity = 0;
+            sidebar.classList.toggle("op-0");
             setTimeout(()=>{
                 sidebar.classList.toggle("mobile-only");
             }, 200)
