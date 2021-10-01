@@ -1,3 +1,16 @@
+//SideBar
+function addClickMenuEvent() {
+    let btn = document.getElementById("menu-btn");
+    let sidebar = document.getElementById("sidebar");
+
+    btn.addEventListener("click", (e) => {
+        sidebar.classList.toggle("mobile-only");
+    });
+}
+
+
+//Display Content
+
 async function getMenu() {
     let response = await fetch("uud45.json");
     const data = await response.json();
@@ -59,12 +72,14 @@ async function renderData(bab) {
 function setEvent() {
     let nav = document.querySelector("ul.nav");
     let lis = nav.querySelectorAll("li>a");
+    let sidebar = document.getElementById("sidebar");
 
     lis.forEach(function(li) {
         li.addEventListener("click", function(e){
             let bab = li.dataset.bab;
             renderData(bab);
             focusOn(e.target);
+            sidebar.classList.toggle("mobile-only");
         });
     });
 }
@@ -80,5 +95,6 @@ function focusOn(e) {
 
 document.addEventListener("DOMContentLoaded", async function(e) {
     getMenu();
+    addClickMenuEvent();
 });
 
