@@ -51,6 +51,7 @@ p {
     transform: scale(1.5);
   }
 }
+
 /* Reset */
 
 .header {
@@ -64,8 +65,9 @@ p {
 .open-btn {
   padding: 0.8rem;
   border-radius: 0.25rem;
-  background: var(--bg-white);
-  border: 2px solid var(--text-dark);
+  background: none;
+  border: 0;
+  font-size: 1.2rem;
 }
 
 .open-btn:hover {
@@ -87,10 +89,18 @@ p {
   left: 0;
   order: -1;
   background: var(--bg-white);
-  opacity: 1;
   width: 20vw;
   height: 100vh;
   padding: 1.25rem;
+}
+
+.close-btn {
+  display: none;
+  border: 0;
+  transform: translateY(0.5rem);
+  background: none;
+  font-size: 1rem;
+  float: right;
 }
 
 .sidebar hr {
@@ -100,6 +110,10 @@ p {
 .brand {
   font-size: 2rem;
   text-align: center;
+}
+
+.icon {
+  transform: translateY(5px);
 }
 
 .brand-name {
@@ -204,19 +218,40 @@ main > article > h1 {
     display: flex;
   }
 
-  .op-0 {
-    opacity: 0;
-  }
-
   .sidebar {
     display: none;
-    opacity: 0;
-    transition: all 0.5s;
+    animation: fadein 1s ease;
   }
 
   .mobile-only {
     display: block !important;
-    position: sticky !important;
+    position: fixed !important;
     width: 100vw;
+  }
+
+  .close-btn {
+    display: inline-block;
+  }
+
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeout {
+    from {
+      opacity: 1;
+      z-index: 1;
+    }
+
+    to {
+      opacity: 0;
+      z-index: 0;
+    }
   }
 }

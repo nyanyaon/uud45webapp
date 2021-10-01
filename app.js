@@ -1,13 +1,19 @@
 //SideBar
 function addClickMenuEvent() {
-    let btn = document.getElementById("menu-btn");
+    let btnOpen = document.getElementById("menu-btn");
+    let btnClose = document.getElementById("close-btn");
     let sidebar = document.getElementById("sidebar");
 
-    btn.addEventListener("click", (e) => {
+    btnOpen.addEventListener("click", (e) => {
         sidebar.classList.toggle("mobile-only");
+    });
+
+    btnClose.addEventListener("click", (e) => {
+        sidebar.style.animation = "fadeout 0.8s ease";
         setTimeout(()=>{
-            sidebar.style.opacity = 1;
-        }, 200)
+            sidebar.style.animation = "fadein 1s ease";
+            sidebar.classList.toggle("mobile-only");
+        }, 800);
     });
 }
 
@@ -72,6 +78,7 @@ async function renderData(bab) {
     }
 }
 
+
 function setEvent() {
     let nav = document.querySelector("ul.nav");
     let lis = nav.querySelectorAll("li>a");
@@ -79,13 +86,14 @@ function setEvent() {
 
     lis.forEach(function(li) {
         li.addEventListener("click", function(e){
+            sidebar.style.animation = "fadeout 0.8s ease";
+            setTimeout(()=>{
+                sidebar.style.animation = "fadein 1s ease";
+                sidebar.classList.toggle("mobile-only");
+            }, 800);
             let bab = li.dataset.bab;
             renderData(bab);
             focusOn(e.target);
-            sidebar.classList.toggle("op-0");
-            setTimeout(()=>{
-                sidebar.classList.toggle("mobile-only");
-            }, 200)
         });
     });
 }
