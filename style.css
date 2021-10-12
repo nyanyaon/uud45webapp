@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: "Halant", serif;
+  font-family: "Nunito Sans", sans-serif;
   position: relative;
   margin: 0;
   padding: 0;
@@ -18,17 +18,17 @@ body {
 }
 
 h1 {
-  font-size: 1.75rem;
+  font-family: "Halant", serif;
+  font-size: 1.5rem;
 }
 
 h2 {
-  font-size: 1.5rem;
-  animation: slidein 0.6s ease-out;
+  font-size: 1.25rem;
+  animation: slidein 0.4s ease-out;
 }
 
 p {
   font-size: 1rem;
-  font-family: "Nunito Sans", sans-serif;
   animation: slidein calc(var(--order) * 0.1s) ease;
 }
 
@@ -70,10 +70,6 @@ p {
   font-size: 1.2rem;
 }
 
-.open-btn:hover {
-  background: hsl(0, 0%, 40%);
-}
-
 .header-brand {
   margin-left: 0.8rem;
   font-size: 2rem;
@@ -85,22 +81,28 @@ p {
 .sidebar {
   position: sticky;
   box-sizing: border-box;
-  top: 0;
   left: 0;
+  top: 0;
+  bottom: 0;
   order: -1;
   background: var(--bg-white);
-  width: 20vw;
-  height: 100vh;
+  width: 25vw;
   padding: 1.25rem;
 }
 
 .close-btn {
   display: none;
+  position: absolute;
   border: 0;
-  transform: translateY(0.5rem);
   background: none;
-  font-size: 1rem;
-  float: right;
+  padding: 0.8rem;
+  font-size: 1.25rem;
+  float: left;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
 }
 
 .sidebar hr {
@@ -118,12 +120,13 @@ p {
 
 .brand-name {
   font-weight: 700;
+  font-family: "Halant", serif;
 }
 
 .sidebar-nav {
   overflow-y: auto;
   overflow-x: hidden;
-  font-size: 1.25rem;
+  font-size: 1rem;
   height: auto;
 }
 
@@ -138,7 +141,6 @@ p {
 .nav > li > a {
   display: block;
   cursor: pointer;
-  line-height: 1.2;
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
   margin-bottom: 0.25rem;
@@ -154,7 +156,7 @@ p {
 
 .selected {
   background: #bebebe;
-  font-weight: 600 !important;
+  font-weight: 700 !important;
 }
 
 /* Sidebar Footer */
@@ -191,9 +193,13 @@ main > article > h1 {
 
   main {
     width: 80vw;
-    margin: 0 auto;
+    margin: 0 2rem;
     box-sizing: border-box;
     font-size: 0.9rem;
+  }
+
+  .sidebar {
+    width: 30vw;
   }
 }
 
@@ -201,6 +207,15 @@ main > article > h1 {
   body {
     flex-direction: column;
     font-size: 0.8rem;
+  }
+
+  .icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .sidebar-nav {
+    height: 70vh;
   }
 
   h1 {
@@ -220,38 +235,39 @@ main > article > h1 {
 
   .sidebar {
     display: none;
-    animation: fadein 1s ease;
   }
 
   .mobile-only {
     display: block !important;
     position: fixed !important;
     width: 100vw;
+    height: 100vh;
+    animation: in 0.6s ease;
   }
 
   .close-btn {
     display: inline-block;
   }
 
-  @keyframes fadein {
+  @keyframes in {
     from {
-      opacity: 0;
+      transform: translateX(-100%);
     }
 
     to {
-      opacity: 1;
+      transform: translateX(0%);
     }
   }
 
-  @keyframes fadeout {
+  @keyframes out {
     from {
       opacity: 1;
-      z-index: 1;
+      transform: translateX(0%);
     }
 
     to {
       opacity: 0;
-      z-index: 0;
+      transform: translateX(-100%);
     }
   }
 }

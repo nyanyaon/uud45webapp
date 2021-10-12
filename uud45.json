@@ -1,192 +1,646 @@
 {
-    "1" : {
-        "BAB": "BAB I",
-        "title": "BENTUK DAN KEDAULATAN",
-        "pasal": [{
-            "no": "1",
-            "ayat": [
-                "Negara Indonesia ialah Negara Kesatuan, yang berbentuk Republik.",
-                "Kedaulatan berada di tangan rakyat dan dilaksanakan menurut Undang-Undang Dasar.***",
-                "Negara Indonesia adalah negara hukum. ***"
-            ]
-        }]
-    },
-    "2" : {
-        "BAB": "BAB II",
-        "title": "MAJELIS PERMUSYAWARATAN RAKYAT",
-        "pasal": [
-            {
-                "no": "2",
-                "ayat": [
-                    "Majelis Permusyawaratan Rakyat terdiri atas anggota Dewan Perwakilan Rakyat dan anggota Dewan Perwakilan Daerah yang dipilih melalui pemilihan umum dan diatur lebih lanjut dengan undangundang.****",
-                    "Majelis Permusyawaratan Rakyat bersidang sedikitnya sekali dalam lima tahun di ibukota negara.",
-                    "Segala putusan Majelis Permusyawaratan Rakyat ditetapkan dengan suara yang terbanyak."
-                ]
-            },
-            {
-                "no": "3",
-                "ayat": [
-                    "Majelis Permusyawaratan Rakyat berwenang mengubah dan menetapkan Undang Undang Dasar. ***",
-                    "Majelis Permusyawaratan Rakyat melantik Presiden dan/atau Wakil Presiden. ***/****",
-                    "Majelis Permus yawaratan Rakyat hanya dap at memberhentikan Presiden dan/atau Wakil Presiden dalam masa jabatannya menurut UndangUndang Dasar. ***/****"
-                ]
-            }
+  "1": {
+    "BAB": "BAB I",
+    "title": "BENTUK DAN KEDAULATAN",
+    "pasal": [
+      {
+        "no": "1",
+        "ayat": [
+          "Negara Indonesia ialah Negara Kesatuan, yang berbentuk Republik.",
+          "Kedaulatan berada di tangan rakyat dan dilaksanakan menurut Undang-Undang Dasar.***",
+          "Negara Indonesia adalah negara hukum. ***"
         ]
-    },
-    "3" : {
-        "BAB": "BAB III",
-        "title": "KEKUASAAN PEMERINTAH",
-        "pasal": [
-            {
-                "no": "4",
-                "ayat": [
-                    "Presiden Republik Indonesia memegang kekuasaan pemerintahan menurut Undang Undang Dasar.",
-                    "Dalam melakukan kewajibannya Presiden dibantu oleh satu orang Wakil Presiden."
-                ]
-            },
-            {
-                "no": "5",
-                "ayat": [
-                    "Presiden berhak mengajukan rancangan undangundang kepada Dewan Perwakilan Rakyat. *",
-                    "Presiden menetapkan peraturan pemerintah untuk menjalankan undangundang sebagaimana mestinya."
-                ]
-            },
-            {
-                "no": "6",
-                "ayat": [
-                    "Calon Presiden dan calon Wakil Presiden harus seorang warga negara Indonesia sejak kelahirannya dan tidak pernah menerima kewarganegaraan lain karena kehendaknya sendiri, tidak pernah mengkhianati negara, serta mampu secara rohani dan jasmani untuk melaksanakan tugas dan kewajiban sebagai Presiden dan Wakil Presiden. **",
-                    "Syarat syarat untuk menjadi Presiden dan Wakil Presiden diatur lebih lanjut dengan undangundang. ***"
-                ]
-            },
-            {
-                "no": "6A",
-                "ayat": [
-                    "Presiden dan Wakil Presiden dipilih dalam satu pasangan secara langsung oleh rakyat.***",
-                    "Pasangan calon Presiden dan Wakil Presiden diusulkan oleh partai politik atau gabungan partai politik peserta pemilihan umum sebelum pelaksanaan pemilihan umum. ***",
-                    "Pasangan calon Presiden dan Wakil Presiden yang mendapatkan suara lebih dari lima puluh persen dari jumlah suara dalam pemilihan umum dengan sedikitnya dua puluh persen suara di setiap provinsi yang tersebar di lebih dari setengah jumlah provinsi di Indonesia, dilantik menjadi Presiden dan Wakil Presiden. ***",
-                    "Dalam hal tidak ada pasangan calon Presiden dan Wakil Presiden terpilih, dua pasangan calon yang memperoleh suara terbanyak pertama dan kedua dalam pemilihan umum dipilih oleh rakyat secara langsung dan pasangan yang memperoleh suara rakyat terbanyak dilantik sebagai Presiden dan Wakil Presiden. ****",
-                    "Tata cara pelaksanaan pemilihan Presiden dan Wakil Presiden lebih lanjut diatur dalam undangundang. ***"
-                ]
-            },
-            {
-                "no": "7",
-                "ayat": [
-                    "Presiden dan Wakil Presiden memegang jabatan selama lima tahun, dan sesudahnya dapat dipilih kembali dalam jabatan yang sama, hanya untuk satu kali masa jabatan.*"
-                ]
-            },
-            {
-                "no": "7A",
-                "ayat": [
-                    "Presiden dan/atau Wakil Presiden dapat diberhentikan dalam masa jabatannya oleh Majelis Permusyawaratan Rakyat atas usul Dewan Perwakilan Rakyat, baik apabila terbukti telah melakukan pelanggaran hukum berupa pengkhianatan terhadap negara, korupsi, penyuapan, tindak pidana berat lainnya, atau perbuatan tercela maupun apabila terbukti tidak lagi memenuhi syarat sebagai Presiden dan/atau Wakil Presiden. ***"
-                ]
-            },
-            {
-                "no": "7B",
-                "ayat": [
-                    "Usul pemberhentian Presiden dan/atau Wakil Presiden dapat diajukan oleh Dewan Perwakilan Rakyat kepada Majelis Permusyawaratan Rakyat hanya dengan terlebih dahulu mengajukan permintaan kepada Mahkamah Konstitusi untuk memeriksa, mengadili, dan memutus pendapat Dewan Perwakilan Rakyat bahwa Presiden dan/atau Wakil Presiden telah melakukan pelanggaran hukum berupa pengkhianatan terhadap negara, korupsi, penyuapan, tindak pidana berat lainnya, atau perbuatan tercela; dan/atau pendapat bahwa Presiden dan/atau Wakil Presiden tidak lagi memenuhi syarat sebagai Presiden dan/atau Wakil Presiden. ***",
-                    "Pendapat Dewan Perwakilan Rakyat bahwa Presiden dan/atau Wakil Presiden telah melakukan pelanggaran hukum tersebut ataupun telah tidak lagi memenuhi syarat sebagai Presiden dan/atau Wakil Presiden adalah dalam rangka pelaksanaan fungsi pengawasan Dewan Perwakilan Rakyat. ***",
-                    "Pengajuan permintaan Dewan Perwakilan Rakyat kepada Mahkamah Konstitusi hanya dapat dilakukan dengan dukungan sekurangkurangnya 2/3 dari jumlah anggota Dewan Perwakilan Rakyat yang hadir dalam sidang paripurna yang dihadiri oleh sekurangkurangnya 2/3 dari jumlah anggota Dewan Perwakilan Rakyat. ***",
-                    "Mahkamah Konstitusi wajib memeriksa, mengadili, dan memutus dengan seadiladilnya terhadap pendapat Dewan Perwakilan Rakyat tersebut paling lama sembilan puluh hari setelah permintaan Dewan Perwakilan Rakyat itu diterima oleh Mahkamah Konstitusi. ***",
-                    "Apabila Mahkamah Konstitusi memutuskan bahwa Presiden dan/atau Wakil Presiden terbukti melakukan pelanggaran hukum berupa pengkhianatan terhadap negara, korupsi, penyuapan, tindak pidana berat lainnya, atau perbuatan tercela; dan/atau terbukti bahwa Presiden dan/atau Wakil Presiden tidak lagi memenuhi syarat sebagai Presiden dan/atau Wakil Presiden, Dewan Perwakilan Rakyat menyelenggarakan sidang paripurna untuk meneruskan usul pemberhentian Presiden dan/atau Wakil Presiden kepada Majelis Permusyawaratan Rakyat. ***",
-                    "Majelis Permusyawaratan Rakyat wajib menyelenggarakan sidang untuk memutuskan usul Dewan Perwakilan Rakyat tersebut paling lambat tiga puluh hari sejak Majelis Permusyawaratan Rakyat menerima usul tersebut. ***",
-                    "Keputusan Majelis Permusyawaratan Rakyat atas usul pemberhentian Presiden dan/atau Wakil Presiden harus diambil dalam rapat paripurna Majelis Permusyawaratan Rakyat yang dihadiri oleh sekurangkurangnya 3/4 dari jumlah anggota dan disetujui oleh sekurangkurangnya 2/3 dari jumlah anggota yang hadir, setelah Presiden dan/atau Wakil Presiden diberi kesempatan menyampaikan penjelasan dalam rapat paripurna Majelis Permusyawaratan Rakyat. ***"
-                ]
-            },
-            {
-                "no": "7C",
-                "ayat": [
-                    "Presiden tidak dapat membekukan dan/atau membubarkan Dewan Perwakilan Rakyat. ***"
-                ]
-            },
-            {
-                "no": "8",
-                "ayat": [
-                    "Jika Presiden mangkat, berhenti, diberhentikan, atau tidak dapat melakukan kewajibannya dalam masa jabatannya, ia digantikan oleh Wakil Presiden sampai habis masa jabatannya. ***",
-                    "Dalam hal terjadi kekosongan Wakil Presiden, selambatlambatnya dalam waktu enam puluh hari, Majelis Permusyawaratan Rakyat menyelenggarakan sidang untuk memilih Wakil Presiden dari dua calon yang diusulkan oleh Presiden. ***",
-                    "Jika Presiden dan Wakil Presiden mangkat, berhenti, diberhentikan, atau tidak dapat melakukan kewajibannya dalam masa jabatannya secara bersamaan, pelaksana tugas kepresidenan adalah Menteri Luar Negeri, Menteri Dalam Negeri, dan Menteri Pertahanan secara bersamasama. Selambatlambatnya tiga puluh hari setelah itu, Majelis Permusyawaratan Rakyat menyelenggarakan sidang untuk memilih Presiden dan Wakil Presiden dari dua pasangan calon Presiden dan Wakil Presiden yang diusulkan oleh partai politik atau gabungan partai politik yang pasangan calon Presiden dan Wakil Presidennya meraih suara terbanyak pertama dan kedua dalam pemilihan umum sebelumnya, sampai berakhir masa jabatannya. ****"
-                ]
-            },
-            {
-                "no": "9",
-                "ayat": [
-                    "J Sebelum memangku jabatannya, Presiden dan Wakil Presiden bersumpah menurut agama, atau berjanji dengan sungguhsungguh di hadapan Majelis Permusyawaratan Rakyat atau Dewan Perwakilan Rakyat sebagai berikut : Sumpah Presiden (Wakil Presiden) : Demi Allah, saya bersumpah akan memenuhi kewajiban Presiden Republik Indonesia (Wakil Presiden Republik Indonesia) dengan sebaikbaiknya dan seadiladilnya, memegang teguh UndangUndang Dasar dan menjalankan segala undangundang dan peraturannya dengan seluruslurusnya serta berbakti kepada Nusa dan Bangsa. Janji Presiden (Wakil Presiden) : Saya berjanji dengan sungguhsungguh akan memenuhi kewajiban Presiden Republik Indonesia (Wakil Presiden Republik Indonesia) dengan sebaikbaiknya dan seadiladilnya, memegang teguh UndangUndang Dasar dan menjalankan segala undangundang dan peraturannya dengan seluruslurusnya serta berbakti kepada Nusa dan Bangsa. *",
-                    "Jika Majelis Permusyawaratan Rakyat atau Dewan Perwakilan Rakyat tidak dapat mengadakan sidang, Presiden dan Wakil Presiden bersumpah menurut agama, atau berjanji dengan sungguhsungguh di hadapan pimpinan Majelis Permusyawaratan Rakyat dengan disaksikan oleh Pimpinan Mahkamah Agung. *"
-                ]
-            },
-            {
-                "no": "10",
-                "ayat": [
-                    "Presiden memegang kekuasaan yang tertinggi atas Angkatan Darat, Angkatan Laut dan Angkatan Udara."
-                ]
-            },
-            {
-                "no": "11",
-                "ayat": [
-                    "Presiden dengan persetujuan Dewan Perwakilan Rakyat menyatakan perang, membuat perdamaian dan perjanjian dengan negara lain. ****",
-                    "Presiden dalam membuat perjanjian internasional lainnya yang menimbulkan akibat yang luas dan mendasar bagi kehidupan rakyat yang terkait dengan beban keuangan negara, dan/atau mengharuskan perubahan atau pembentukan undangundang harus dengan persetujuan Dewan Perwakilan Rakyat. ***",
-                    "Ketentuan lebih lanjut tentang perjanjian internasional diatur dengan undangundang. ***"
-                ]
-            },
-            {
-                "no": "12",
-                "ayat": [
-                    "Presiden menyatakan keadaan bahaya. Syaratsyarat dan akibatnya keadaan bahaya ditetapkan dengan undangundang."
-                ]
-            },
-            {
-                "no": "13",
-                "ayat": [
-                    "Presiden mengangkat duta dan konsul.",
-                    "Dalam hal mengangkat duta, Presiden memperhatikan pertimbangan Dewan Perwakilan Rakyat. *",
-                    "Presiden menerima penempatan duta negara lain dengan memperhatikan pertimbangan Dewan Perwakilan Rakyat. *"
-                ]
-            },
-            {
-                "no": "14",
-                "ayat": [
-                    "Presiden memberi grasi dan rehabilitasi dengan memperhatikan pertimbangan Mahkamah Agung. *",
-                    "Presiden memberi amnesti dan abolisi dengan memperhatikan pertimbangan Dewan Perwakilan Rakyat. *"
-                ]
-            },
-            {
-                "no": "15",
-                "ayat": [
-                    "Presiden memberi gelar, tanda jasa, dan lainlain tanda kehormatan yang diatur dengan undangundang. *"
-                ]
-            },
-            {
-                "no": "16",
-                "ayat": [
-                    "Presiden membentuk suatu dewan pertimbangan yang bertugas memberikan nasihat dan pertimbangan kepada Presiden, yang selanjutnya diatur dalam undangundang. ****"
-                ]
-            }
+      }
+    ]
+  },
+  "2": {
+    "BAB": "BAB II",
+    "title": "MAJELIS PERMUSYAWARATAN RAKYAT",
+    "pasal": [
+      {
+        "no": "2",
+        "ayat": [
+          "Majelis Permusyawaratan Rakyat terdiri atas anggota Dewan Perwakilan Rakyat dan anggota Dewan Perwakilan Daerah yang dipilih melalui pemilihan umum dan diatur lebih lanjut dengan undangundang.****",
+          "Majelis Permusyawaratan Rakyat bersidang sedikitnya sekali dalam lima tahun di ibukota negara.",
+          "Segala putusan Majelis Permusyawaratan Rakyat ditetapkan dengan suara yang terbanyak."
         ]
-    },
-    "4" : {
-        "BAB": "BAB IV",
-        "title": "DEWAN PERTIMBANGAN AGUNG",
-        "pasal": [
-            {
-                "no": "",
-                "ayat": [
-                    "Dihapus.****"
-                ]
-            }
+      },
+      {
+        "no": "3",
+        "ayat": [
+          "Majelis Permusyawaratan Rakyat berwenang mengubah dan menetapkan Undang Undang Dasar. ***",
+          "Majelis Permusyawaratan Rakyat melantik Presiden dan/atau Wakil Presiden. ***/****",
+          "Majelis Permus yawaratan Rakyat hanya dap at memberhentikan Presiden dan/atau Wakil Presiden dalam masa jabatannya menurut UndangUndang Dasar. ***/****"
         ]
-    },
-    "5" : {
-        "BAB": "BAB V",
-        "title": "KEMENTERIAN NEGARA",
-        "pasal": [
-            {
-                "no": "17",
-                "ayat": [
-                    "Presiden dibantu oleh menteri-menteri negara.",
-                    "Menteri-menteri itu diangkat dan diberhentikan oleh Presiden. *",
-                    "Setiap menteri membidangi urusan tertentu dalam pemerintahan. *",
-                    "Pembentukan, pengubahan, dan pembubaran kementerian negara diatur dalam undang-undang. ***"
-                ]
-            }
+      }
+    ]
+  },
+  "3": {
+    "BAB": "BAB III",
+    "title": "KEKUASAAN PEMERINTAH",
+    "pasal": [
+      {
+        "no": "4",
+        "ayat": [
+          "Presiden Republik Indonesia memegang kekuasaan pemerintahan menurut Undang Undang Dasar.",
+          "Dalam melakukan kewajibannya Presiden dibantu oleh satu orang Wakil Presiden."
         ]
-    }
+      },
+      {
+        "no": "5",
+        "ayat": [
+          "Presiden berhak mengajukan rancangan undangundang kepada Dewan Perwakilan Rakyat. *",
+          "Presiden menetapkan peraturan pemerintah untuk menjalankan undangundang sebagaimana mestinya."
+        ]
+      },
+      {
+        "no": "6",
+        "ayat": [
+          "Calon Presiden dan calon Wakil Presiden harus seorang warga negara Indonesia sejak kelahirannya dan tidak pernah menerima kewarganegaraan lain karena kehendaknya sendiri, tidak pernah mengkhianati negara, serta mampu secara rohani dan jasmani untuk melaksanakan tugas dan kewajiban sebagai Presiden dan Wakil Presiden. **",
+          "Syarat syarat untuk menjadi Presiden dan Wakil Presiden diatur lebih lanjut dengan undangundang. ***"
+        ]
+      },
+      {
+        "no": "6A",
+        "ayat": [
+          "Presiden dan Wakil Presiden dipilih dalam satu pasangan secara langsung oleh rakyat.***",
+          "Pasangan calon Presiden dan Wakil Presiden diusulkan oleh partai politik atau gabungan partai politik peserta pemilihan umum sebelum pelaksanaan pemilihan umum. ***",
+          "Pasangan calon Presiden dan Wakil Presiden yang mendapatkan suara lebih dari lima puluh persen dari jumlah suara dalam pemilihan umum dengan sedikitnya dua puluh persen suara di setiap provinsi yang tersebar di lebih dari setengah jumlah provinsi di Indonesia, dilantik menjadi Presiden dan Wakil Presiden. ***",
+          "Dalam hal tidak ada pasangan calon Presiden dan Wakil Presiden terpilih, dua pasangan calon yang memperoleh suara terbanyak pertama dan kedua dalam pemilihan umum dipilih oleh rakyat secara langsung dan pasangan yang memperoleh suara rakyat terbanyak dilantik sebagai Presiden dan Wakil Presiden. ****",
+          "Tata cara pelaksanaan pemilihan Presiden dan Wakil Presiden lebih lanjut diatur dalam undangundang. ***"
+        ]
+      },
+      {
+        "no": "7",
+        "ayat": [
+          "Presiden dan Wakil Presiden memegang jabatan selama lima tahun, dan sesudahnya dapat dipilih kembali dalam jabatan yang sama, hanya untuk satu kali masa jabatan.*"
+        ]
+      },
+      {
+        "no": "7A",
+        "ayat": [
+          "Presiden dan/atau Wakil Presiden dapat diberhentikan dalam masa jabatannya oleh Majelis Permusyawaratan Rakyat atas usul Dewan Perwakilan Rakyat, baik apabila terbukti telah melakukan pelanggaran hukum berupa pengkhianatan terhadap negara, korupsi, penyuapan, tindak pidana berat lainnya, atau perbuatan tercela maupun apabila terbukti tidak lagi memenuhi syarat sebagai Presiden dan/atau Wakil Presiden. ***"
+        ]
+      },
+      {
+        "no": "7B",
+        "ayat": [
+          "Usul pemberhentian Presiden dan/atau Wakil Presiden dapat diajukan oleh Dewan Perwakilan Rakyat kepada Majelis Permusyawaratan Rakyat hanya dengan terlebih dahulu mengajukan permintaan kepada Mahkamah Konstitusi untuk memeriksa, mengadili, dan memutus pendapat Dewan Perwakilan Rakyat bahwa Presiden dan/atau Wakil Presiden telah melakukan pelanggaran hukum berupa pengkhianatan terhadap negara, korupsi, penyuapan, tindak pidana berat lainnya, atau perbuatan tercela; dan/atau pendapat bahwa Presiden dan/atau Wakil Presiden tidak lagi memenuhi syarat sebagai Presiden dan/atau Wakil Presiden. ***",
+          "Pendapat Dewan Perwakilan Rakyat bahwa Presiden dan/atau Wakil Presiden telah melakukan pelanggaran hukum tersebut ataupun telah tidak lagi memenuhi syarat sebagai Presiden dan/atau Wakil Presiden adalah dalam rangka pelaksanaan fungsi pengawasan Dewan Perwakilan Rakyat. ***",
+          "Pengajuan permintaan Dewan Perwakilan Rakyat kepada Mahkamah Konstitusi hanya dapat dilakukan dengan dukungan sekurangkurangnya 2/3 dari jumlah anggota Dewan Perwakilan Rakyat yang hadir dalam sidang paripurna yang dihadiri oleh sekurangkurangnya 2/3 dari jumlah anggota Dewan Perwakilan Rakyat. ***",
+          "Mahkamah Konstitusi wajib memeriksa, mengadili, dan memutus dengan seadiladilnya terhadap pendapat Dewan Perwakilan Rakyat tersebut paling lama sembilan puluh hari setelah permintaan Dewan Perwakilan Rakyat itu diterima oleh Mahkamah Konstitusi. ***",
+          "Apabila Mahkamah Konstitusi memutuskan bahwa Presiden dan/atau Wakil Presiden terbukti melakukan pelanggaran hukum berupa pengkhianatan terhadap negara, korupsi, penyuapan, tindak pidana berat lainnya, atau perbuatan tercela; dan/atau terbukti bahwa Presiden dan/atau Wakil Presiden tidak lagi memenuhi syarat sebagai Presiden dan/atau Wakil Presiden, Dewan Perwakilan Rakyat menyelenggarakan sidang paripurna untuk meneruskan usul pemberhentian Presiden dan/atau Wakil Presiden kepada Majelis Permusyawaratan Rakyat. ***",
+          "Majelis Permusyawaratan Rakyat wajib menyelenggarakan sidang untuk memutuskan usul Dewan Perwakilan Rakyat tersebut paling lambat tiga puluh hari sejak Majelis Permusyawaratan Rakyat menerima usul tersebut. ***",
+          "Keputusan Majelis Permusyawaratan Rakyat atas usul pemberhentian Presiden dan/atau Wakil Presiden harus diambil dalam rapat paripurna Majelis Permusyawaratan Rakyat yang dihadiri oleh sekurangkurangnya 3/4 dari jumlah anggota dan disetujui oleh sekurangkurangnya 2/3 dari jumlah anggota yang hadir, setelah Presiden dan/atau Wakil Presiden diberi kesempatan menyampaikan penjelasan dalam rapat paripurna Majelis Permusyawaratan Rakyat. ***"
+        ]
+      },
+      {
+        "no": "7C",
+        "ayat": [
+          "Presiden tidak dapat membekukan dan/atau membubarkan Dewan Perwakilan Rakyat. ***"
+        ]
+      },
+      {
+        "no": "8",
+        "ayat": [
+          "Jika Presiden mangkat, berhenti, diberhentikan, atau tidak dapat melakukan kewajibannya dalam masa jabatannya, ia digantikan oleh Wakil Presiden sampai habis masa jabatannya. ***",
+          "Dalam hal terjadi kekosongan Wakil Presiden, selambatlambatnya dalam waktu enam puluh hari, Majelis Permusyawaratan Rakyat menyelenggarakan sidang untuk memilih Wakil Presiden dari dua calon yang diusulkan oleh Presiden. ***",
+          "Jika Presiden dan Wakil Presiden mangkat, berhenti, diberhentikan, atau tidak dapat melakukan kewajibannya dalam masa jabatannya secara bersamaan, pelaksana tugas kepresidenan adalah Menteri Luar Negeri, Menteri Dalam Negeri, dan Menteri Pertahanan secara bersamasama. Selambatlambatnya tiga puluh hari setelah itu, Majelis Permusyawaratan Rakyat menyelenggarakan sidang untuk memilih Presiden dan Wakil Presiden dari dua pasangan calon Presiden dan Wakil Presiden yang diusulkan oleh partai politik atau gabungan partai politik yang pasangan calon Presiden dan Wakil Presidennya meraih suara terbanyak pertama dan kedua dalam pemilihan umum sebelumnya, sampai berakhir masa jabatannya. ****"
+        ]
+      },
+      {
+        "no": "9",
+        "ayat": [
+          "J Sebelum memangku jabatannya, Presiden dan Wakil Presiden bersumpah menurut agama, atau berjanji dengan sungguhsungguh di hadapan Majelis Permusyawaratan Rakyat atau Dewan Perwakilan Rakyat sebagai berikut : Sumpah Presiden (Wakil Presiden) : Demi Allah, saya bersumpah akan memenuhi kewajiban Presiden Republik Indonesia (Wakil Presiden Republik Indonesia) dengan sebaikbaiknya dan seadiladilnya, memegang teguh UndangUndang Dasar dan menjalankan segala undangundang dan peraturannya dengan seluruslurusnya serta berbakti kepada Nusa dan Bangsa. Janji Presiden (Wakil Presiden) : Saya berjanji dengan sungguhsungguh akan memenuhi kewajiban Presiden Republik Indonesia (Wakil Presiden Republik Indonesia) dengan sebaikbaiknya dan seadiladilnya, memegang teguh UndangUndang Dasar dan menjalankan segala undangundang dan peraturannya dengan seluruslurusnya serta berbakti kepada Nusa dan Bangsa. *",
+          "Jika Majelis Permusyawaratan Rakyat atau Dewan Perwakilan Rakyat tidak dapat mengadakan sidang, Presiden dan Wakil Presiden bersumpah menurut agama, atau berjanji dengan sungguhsungguh di hadapan pimpinan Majelis Permusyawaratan Rakyat dengan disaksikan oleh Pimpinan Mahkamah Agung. *"
+        ]
+      },
+      {
+        "no": "10",
+        "ayat": [
+          "Presiden memegang kekuasaan yang tertinggi atas Angkatan Darat, Angkatan Laut dan Angkatan Udara."
+        ]
+      },
+      {
+        "no": "11",
+        "ayat": [
+          "Presiden dengan persetujuan Dewan Perwakilan Rakyat menyatakan perang, membuat perdamaian dan perjanjian dengan negara lain. ****",
+          "Presiden dalam membuat perjanjian internasional lainnya yang menimbulkan akibat yang luas dan mendasar bagi kehidupan rakyat yang terkait dengan beban keuangan negara, dan/atau mengharuskan perubahan atau pembentukan undangundang harus dengan persetujuan Dewan Perwakilan Rakyat. ***",
+          "Ketentuan lebih lanjut tentang perjanjian internasional diatur dengan undangundang. ***"
+        ]
+      },
+      {
+        "no": "12",
+        "ayat": [
+          "Presiden menyatakan keadaan bahaya. Syaratsyarat dan akibatnya keadaan bahaya ditetapkan dengan undangundang."
+        ]
+      },
+      {
+        "no": "13",
+        "ayat": [
+          "Presiden mengangkat duta dan konsul.",
+          "Dalam hal mengangkat duta, Presiden memperhatikan pertimbangan Dewan Perwakilan Rakyat. *",
+          "Presiden menerima penempatan duta negara lain dengan memperhatikan pertimbangan Dewan Perwakilan Rakyat. *"
+        ]
+      },
+      {
+        "no": "14",
+        "ayat": [
+          "Presiden memberi grasi dan rehabilitasi dengan memperhatikan pertimbangan Mahkamah Agung. *",
+          "Presiden memberi amnesti dan abolisi dengan memperhatikan pertimbangan Dewan Perwakilan Rakyat. *"
+        ]
+      },
+      {
+        "no": "15",
+        "ayat": [
+          "Presiden memberi gelar, tanda jasa, dan lainlain tanda kehormatan yang diatur dengan undangundang. *"
+        ]
+      },
+      {
+        "no": "16",
+        "ayat": [
+          "Presiden membentuk suatu dewan pertimbangan yang bertugas memberikan nasihat dan pertimbangan kepada Presiden, yang selanjutnya diatur dalam undangundang. ****"
+        ]
+      }
+    ]
+  },
+  "4": {
+    "BAB": "BAB IV",
+    "title": "DEWAN PERTIMBANGAN AGUNG",
+    "pasal": [
+      {
+        "no": "",
+        "ayat": ["Dihapus.****"]
+      }
+    ]
+  },
+  "5": {
+    "BAB": "BAB V",
+    "title": "KEMENTERIAN NEGARA",
+    "pasal": [
+      {
+        "no": "17",
+        "ayat": [
+          "Presiden dibantu oleh menteri-menteri negara.",
+          "Menteri-menteri itu diangkat dan diberhentikan oleh Presiden. *",
+          "Setiap menteri membidangi urusan tertentu dalam pemerintahan. *",
+          "Pembentukan, pengubahan, dan pembubaran kementerian negara diatur dalam undang-undang. ***"
+        ]
+      }
+    ]
+  },
+  "6": {
+    "BAB": "BAB VI",
+    "title": "PEMERINTAH DAERAH",
+    "pasal": [
+      {
+        "no": "18",
+        "ayat": [
+          "Negara Kesatuan Republik Indonesia dibagi atas daerahdaerah provinsi dan daerah provinsi itu dibagi atas kabupaten dan kota, yang tiaptiap provinsi, kabupaten, dan kota itu mempunyai pemerintahan daerah, yang diatur dengan undangundang. **",
+          " Pemerintahan daerah provinsi, daerah kabupaten, dan kota mengatur dan mengurus sendiri urusan pemerintahan menurut asas otonomi dan tugas pembantuan. **",
+          "Pemerintahan daerah provinsi, daerah kabupaten, dan kota memiliki Dewan Perwakilan Rakyat Daerah yang anggotaanggotanya dipilih melalui pemilihan umum. **",
+          "Gubernur, Bupati, dan Walikota masingmasing sebagai kepala pemerintah daerah provinsi, kabupaten, dan kota dipilih secara demokratis. **",
+          "Pemerintahan daerah menjalankan otonomi seluasluasnya, kecuali urusan pemerintahan yang oleh undangundang ditentukan sebagai urusan Pemerintah Pusat. **",
+          "Pemerintahan daerah berhak menetapkan peraturan daerah dan peraturanperaturan lain untuk melaksanakan otonomi dan tugas pembantuan. **",
+          "Susunan dan tata cara penyelenggaraan pemerintahan daerah diatur dalam undangundang. **"
+        ]
+      },
+      {
+        "no": "18A",
+        "ayat": [
+          "Hubungan wewenang antara pemerintah pusat dan pemerintahan daerah provinsi, kabupaten, dan kota, atau antara provinsi dan kabupaten dan kota, diatur dengan undangundang dengan memperhatikan kekhususan dan keragaman daerah. **",
+          "Hubungan keuangan, pelayanan umum, pemanfaatan sumber daya alam dan sumber daya lainnya antara pemerintah pusat dan pemerintahan daerah diatur dan dilaksanakan secara adil dan selaras berdasarkan undangundang. **"
+        ]
+      },
+      {
+        "no": "18B",
+        "ayat": [
+          "Negara mengakui dan menghormati satuan-satuan pemerintahan daerah yang bersifat khusus atau bersifat istimewa yang diatur dengan undangundang. **",
+          "Negara mengakui dan menghormati kesatuankesatuan masyarakat hukum adat beserta hakhak tradisionalnya sepanjang masih hidup dan sesuai dengan perkembangan masyarakat dan prinsip Negara Kesatuan Republik Indonesia, yang diatur dalam undangundang. **"
+        ]
+      }
+    ]
+  },
+  "7": {
+    "BAB": "BAB VII",
+    "title": "DEWAN PERWAKILAN RAKYAT",
+    "pasal": [
+      {
+        "no": "19",
+        "ayat": [
+          "Anggota Dewan Perwakilan Rakyat dipilih melalui pemilihan umum. **",
+          "Susunan Dewan Perwakilan Rakyat diatur dengan undangundang. **",
+          "Dewan Perwakilan Rakyat bersidang sedikitnya sekali dalam setahun. **"
+        ]
+      },
+      {
+        "no": "20",
+        "ayat": [
+          "Dewan Perwakilan Rakyat memegang kekuasaan membentuk undangundang. *",
+          "Setiap rancangan undangundang dibahas oleh Dewan Perwakilan Rakyat dan Presiden untuk mendapat persetujuan bersama. *",
+          "Jika rancangan undangundang itu tidak mendapat persetujuan bersama, rancangan undangundang itu tidak boleh diajukan lagi dalam persidangan Dewan Perwakilan Rakyat masa itu. *",
+          "Presiden mengesahkan rancangan undangundang yang telah disetujui bersama untuk menjadi undangundang. *",
+          "Dalam hal rancangan undangundang yang telah disetujui bersama tersebut tidak disahkan oleh Presiden dalam waktu tiga puluh hari semenjak rancangan undangundang tersebut disetujui, rancangan undangundang tersebut sah menjadi undangundang dan wajib diundangkan. **"
+        ]
+      },
+      {
+        "no": "20A",
+        "ayat": [
+          "Dewan Perwakilan Rakyat memiliki fungsi legislasi, fungsi anggaran, dan fungsi pengawasan. **",
+          "Dalam melaksanakan fungsinya, selain hak yang diatur dalam pasalpasal lain UndangUndang Dasar ini, Dewan Perwakilan Rakyat mempunyai hak interpelasi, hak angket, dan hak menyatakan pendapat. **",
+          "Selain hak yang diatur dalam pasalpasal lain UndangUndang Dasar ini, setiap anggota Dewan Perwakilan Rakyat mempunyai hak mengajukan pertanyaan, menyampaikan usul dan pendapat serta hak imunitas. **",
+          "Ketentuan lebih lanjut tentang hak Dewan Perwakilan Rakyat dan hak anggota Dewan Perwakilan Rakyat diatur dalam undangundang. **"
+        ]
+      },
+      {
+        "no": "21",
+        "ayat": [
+          "Anggota Dewan Perwakilan Rakyat berhak mengajukan usul rancangan undangundang.*"
+        ]
+      },
+      {
+        "no": "22",
+        "ayat": [
+          "Dalam hal ihwal kegentingan yang memaksa, Presiden berhak menetapkan peraturan pemerintah sebagai pengganti undang-undang.",
+          "Peraturan pemerintah itu harus mendapat persetujuan Dewan Perwakilan Rakyat dalam persidangan yang berikut.",
+          "Jika tidak mendapat persetujuan, maka peraturan pemerintah itu harus dicabut."
+        ]
+      },
+      {
+        "no": "22A",
+        "ayat": [
+          "Ketentuan lebih lanjut tentang tata cara pembentukan undang-undang diatur dengan undang-undang. **"
+        ]
+      },
+      {
+        "no": "22B",
+        "ayat": [
+          "Anggota Dewan Perwakilan Rakyat dapat diberhentikan dari jabatannya, yang syarat-syarat dan tata caranya diatur dalam undang-undang. **"
+        ]
+      }
+    ]
+  },
+  "8": {
+    "BAB": "BAB VIIA***",
+    "title": "DEWAN PERWAKILAN DAERAH",
+    "pasal": [
+      {
+        "no": "22C",
+        "ayat": [
+          "Anggota Dewan Perwakilan Daerah dipilih dari setiap provinsi melalui pemilihan umum.***",
+          "Anggota Dewan Perwakilan Daerah dari setiap provinsi jumlahnya sama dan jumlah seluruh anggota Dewan Perwakilan Daerah itu tidak lebih dari sepertiga jumlah anggota Dewan Perwakilan Rakyat.***",
+          "Dewan Perwakilan Daerah bersidang sedikitnya sekali dalam setahun.***",
+          "Susunan dan kedudukan Dewan Perwakilan Daerah diatur dengan undang-undang.***"
+        ]
+      },
+      {
+        "no": "22D",
+        "ayat": [
+          "Dewan Perwakilan Daerah dapat mengajukan kepada Dewan Perwakilan Rakyat rancangan undang-undang yang berkaitan dengan otonomi daerah, hubungan pusat dan daerah, pembentukan dan pemekaran serta penggabungan daerah, pengelolaan sumber daya alam dan sumber daya ekonomi lainnya, serta perimbangan keuangan pusat dan daerah, serta yang berkaitan dengan perimbangan keuangan pusat dan daerah.***",
+          "Dewan Perwakilan Daerah ikut membahas rancangan undang-undang yang berkaitan dengan otonomi daerah; hubungan pusat dan daerah; pembentukan, pemekaran, dan penggabungan daerah; pengelolaan sumber daya alam dan sumber daya ekonomi lainnya, serta perimbangan keuangan pusat dan daerah; serta memberikan pertimbangan kepada Dewan Perwakilan Rakyat atas rancangan undang-undang yang berkaitan dengan pajak, pendidikan dan agama.***",
+          "Dewan Perwakilan Daerah dapat melakukan pengawasan atas pelaksanaan undang-undang mengenai : otonomi daerah, pembentukan, pemekaran dan penggabungan daerah, hubungan pusat dan daerah, pengelolaan sumber daya alam dan sumber daya ekonomi lainnya, pelaksanaan anggaran pendapatan dan belanja negara, pajak, pendidikan, dan agama serta menyampaikan hasil pengawasannya itu kepada Dewan Perwakilan Rakyat sebagai bahan pertimbangan untuk ditindaklanjuti.***",
+          "Anggota Dewan Perwakilan Daerah dapat diberhentikan dari jabatannya, yang syarat-syarat dan tata caranya diatur dalam undang-undang.***"
+        ]
+      }
+    ]
+  },
+  "9": {
+    "BAB": "BAB VIIB***",
+    "title": "PEMILIHAN UMUM",
+    "pasal": [
+      {
+        "no": "22E",
+        "ayat": [
+          "Pemilihan umum dilaksanakan secara langsung, umum, bebas, rahasia, jujur, dan adil setiap lima tahun sekali.***",
+          "Pemilihan umum diselenggarakan untuk memilih anggota Dewan Perwakilan Rakyat, Dewan Perwakilan Daerah, Presiden dan wakil presiden dan Dewan Perwakilan Rakyat Daerah.***",
+          "Peserta pemilihan umum untuk memilih anggota Dewan Perwakilan Rakyat dan anggota Dewan Perwakilan Rakyat Daerah adalah partai politik.***",
+          "Peserta pemilihan umum untuk memilih anggota Dewan Perwakilan Daerah adalah perseorangan.***",
+          "Pemilihan umum diselenggarakan oleh suatu komisi pemilihan umum yang bersifat nasional, tetap, dan mandiri.***",
+          "Ketentuan lebih lanjut tentang pemilihan umum diatur dengan undang-undang.***"
+        ]
+      }
+    ]
+  },
+  "10": {
+    "BAB": "BAB VIII",
+    "title": "HAL KEUANGAN",
+    "pasal": [
+      {
+        "no": "23",
+        "ayat": [
+          "Anggaran pendapatan dan belanja negara sebagai wujud dari pengelolaan keuangan negara ditetapkan setiap tahun dengan undang-undang dan dilaksanakan secara terbuka dan bertanggung jawab untuk sebesar-besarnya kemakmuran rakyat.***",
+          "Rancangan undang-undang anggaran pendapatan dan belanja negara diajukan oleh Presiden untuk dibahas bersama Dewan Perwakilan Rakyat dengan memperhatikan pertimbangan Dewan Perwakilan Daerah. ***",
+          "Apabila Dewan Perwakilan Rakyat tidak menyetujui rancangan anggaran pendapatan dan belanja negara yang diusulkan oleh Presiden, Pemerintah menjalankan Anggaran Pendapatan dan Belanja Negara tahun yang lalu.***"
+        ]
+      },
+      {
+        "no": "23A",
+        "ayat": [
+          "Pajak dan pungutan lain yang bersifat memaksa untuk keperluan negara diatur dengan undang-undang.***"
+        ]
+      },
+      {
+        "no": "23B",
+        "ayat": [
+          "Macam dan harga mata uang ditetapkan dengan undang-undang.***"
+        ]
+      },
+      {
+        "no": "23C",
+        "ayat": [
+          "Hal-hal lain mengenai keuangan negara diatur dengan undang-undang.***"
+        ]
+      },
+      {
+        "no": "23D",
+        "ayat": [
+          "Negara memiliki suatu bank sentral yang susunan, kedudukan, kewenangan, tanggung jawab, dan independensinya diatur dengan undang-undang.***"
+        ]
+      }
+    ]
+  },
+  "11": {
+    "BAB": "BAB VIIIA***",
+    "title": "BADAN PEMERIKSA KEUANGAN",
+    "pasal": [
+      {
+        "no": "23E",
+        "ayat": [
+          "Untuk memeriksa pengelolaan dan tanggung jawab tentang keuangan negara diadakan satu Badan Pemeriksa Keuangan yang bebas dan mandiri.***",
+          "Hasil pemeriksaan keuangan negara diserahkan kepada Dewan Perwakilan Rakyat, Dewan Perwakilan Daerah, dan Dewan Perwakilan Rakyat Daerah, sesuai dengan kewenangannya.***",
+          "Hasil pemeriksaan tersebut ditindaklanjuti oleh lembaga perwakilan dan/atau badan sesuai dengan undang-undang.***"
+        ]
+      },
+      {
+        "no": "23F",
+        "ayat": [
+          "Anggota Badan Pemeriksa Keuangan dipilih oleh Dewan Perwakilan Rakyat dengan memperhatikan pertimbangan Dewan Perwakilan Daerah dan diresmikan oleh Presiden.***",
+          "Pimpinan Badan Pemeriksa Keuangan dipilih dari dan oleh anggota.***"
+        ]
+      },
+      {
+        "no": "23G",
+        "ayat": [
+          "Badan Pemeriksa Keuangan berkedudukan di ibu kota negara, dan memiliki perwakilan di setiap provinsi.***",
+          "Ketentuan lebih lanjut mengenai Badan Pemeriksa Keuangan diatur dengan undang-undang.***"
+        ]
+      }
+    ]
+  },
+  "12": {
+    "BAB": "BAB IX",
+    "title": "KEKUASAAN KEHAKIMAN",
+    "pasal": [
+      {
+        "no": "24",
+        "ayat": [
+          "Kekuasaan Kehakiman merupakan kekuasaan yang merdeka untuk menyelenggarakan peradilan guna menegakkan hukum dan keadilan.***",
+          "Kekuasaan kehakiman dilakukan oleh sebuah Mahkamah Agung dan badan peradilan yang berada di bawahnya dalam lingkungan peradilan umum, lingkungan peradilan agama, lingkungan peradilan militer, lingkungan peradilan tata usaha negara, dan oleh sebuah Mahkamah Konstitusi.***",
+          "Badan-badan lain yang fungsinya berkaitan dengan kekuasaan kehakiman diatur dalam undang-undang.****"
+        ]
+      },
+      {
+        "no": "24A",
+        "ayat": [
+          "Mahkamah Agung berwenang mengadili pada tingkat kasasi, menguji peraturan perundang-undangan di bawah undang-undang terhadap undang-undang, dan mempunyai wewenang lainnya yang diberikan oleh undang-undang.***",
+          "Hakim Agung harus memiliki integritas dan kepribadian yang tidak tercela, adil, profesional, dan berpengalaman di bidang hukum.***",
+          "Calon Hakim Agung diusulkan Komisi Yudisial kepada Dewan Perwakilan Rakyat untuk mendapatkan persetujuan dan selanjutnya ditetapkan sebagai hakim agung oleh Presiden.***",
+          "Ketua dan wakil ketua Mahkamah Agung dipilih dari dan oleh hakim agung.***",
+          "Susunan, kedudukan, keanggotaan, dan hukum acara Mahkamah Agung serta badan peradilan di bawahnya diatur dengan undang-undang.***"
+        ]
+      },
+      {
+        "no": "24B",
+        "ayat": [
+          "Komisi Yudisial bersifat mandiri yang berwenang mengusulkan pengangkatan hakim agung dan mempunyai wewenang lain dalam rangka menjaga dan menegakkan kehormatan, keluhuran martabat, serta perilaku hakim.***",
+          "Anggota Komisi Yudisial harus mempunyai pengetahuan dan pengalaman di bidang hukum serta memiliki integritas dan kepribadian yang tidak tercela.***",
+          "Anggota Yudisial diangkat dan diberhentikan oleh Presiden dengan persetujuan Dewan Perwakilan Rakyat.***",
+          "Susunan, kedudukan, dan keanggotaan Komisi Yudisial diatur dengan undang-undang.***"
+        ]
+      },
+      {
+        "no": "24C***",
+        "ayat": [
+          "Mahkamah Konstitusi berwenang mengadili pada tingkat pertama dan terakhir yang putusannya bersifat final untuk menguji undang-undang terhadap Undang-Undang Dasar, memutus sengketa kewenangan lembaga negara yang kewenangannya diberikan oleh Undang-Undang Dasar, memutus pembubaran partai politik dan memutus perselisihan tentang hasil pemilihan umum.***",
+          "Mahkamah Konstitusi wajib memberikan putusan atas pendapat Dewan Perwaklian Rakyat mengenai dugaan pelanggaran oleh Presiden dan/atau Wakil Presiden menurut Undang-Undang Dasar.***",
+          "Mahkamah Konstitusi mempunyai sembilan orang anggota hakim konstitusi yang ditetapkan oleh Presiden, yang diajukan masing-masing tiga orang oleh Mahkamah Agung, tiga orang oleh Dewan Perwakilan Rakyat, dan tiga orang oleh Presiden. ***",
+          "Ketua dan Wakil Ketua Mahkamah Konstitusi dipilih dari dan oleh hakim konstitusi.***",
+          "Hakim konstitusi harus memiliki integritas dan kepribadian yang tidak tercela, adil, negarawan yang menguasai konstitusi dan ketatanegaraan, serta tidak merangkap sebagai pejabat negara.***",
+          "Pengangkatan dan pemberhentian hakim konstitusi, hukum acara serta ketentuan lainnya tentang Mahkamah Konstitusi diatur dengan undang-undang.***"
+        ]
+      },
+      {
+        "no": "25",
+        "ayat": [
+          "Syarat-syarat untuk menjadi dan untuk diberhentikan sebagai hakim ditetapkan dengan undang-undang"
+        ]
+      }
+    ]
+  },
+  "13": {
+    "BAB": "BAB IXA**",
+    "title": "WILAYAH NEGARA",
+    "pasal": [
+      {
+        "no": "25A****",
+        "ayat": [
+          "Negara Kesatuan Republik Indonesia adalah sebuah negara kepulauan yang berciri Nusantara dengan wilayah dan batas-batas dan hak-haknya ditetapkan dengan undang-undang.**"
+        ]
+      }
+    ]
+  },
+  "14": {
+    "BAB": "BAB X",
+    "title": "WARGA NEGARA DAN PENDUDUK",
+    "pasal": [
+      {
+        "no": "26",
+        "ayat": [
+          "Yang menjadi warga negara ialah orang-orang bangsa Indonesia asli dan orang-orang bangsa lain yang disahkan dengan undang-undang sebagai warga negara.",
+          "Penduduk ialah warga negara Indonesia dan orang asing yang bertempat tinggal di Indonesia.**",
+          "Hal-hal mengenai warga negara dan penduduk diatur dengan undang-undang.**"
+        ]
+      },
+      {
+        "no": "27",
+        "ayat": [
+          "Segala warga negara bersamaan kedudukannya di dalam hukum dan pemerintahan dan wajib menjunjung hukum dan pemerintahan itu dengan tidak ada kecualinya.",
+          "Tiap-tiap warga negara berhak atas pekerjaan dan penghidupan yang layak bagi kemanusiaan.",
+          "Setiap warga negara berhak dan wajib ikut serta dalam upaya pembelaan negara.***"
+        ]
+      },
+      {
+        "no": "28",
+        "ayat": [
+          "Kemerdekaan berserikat dan berkumpul, mengeluarkan pikiran dengan lisan dan tulisan dan sebagainya ditetapkan dengan undang-undang."
+        ]
+      }
+    ]
+  },
+  "16": {
+    "BAB": "BAB XI",
+    "title": "AGAMA",
+    "pasal": [
+      {
+        "no": "29",
+        "ayat": [
+          "Negara berdasar atas Ketuhanan Yang Maha Esa.",
+          "Negara menjamin kemerdekaan tiap-tiap penduduk untuk memeluk agamanya masing-masing dan untuk beribadat menurut agamanya dan kepercayaannya itu."
+        ]
+      }
+    ]
+  },
+  "17": {
+    "BAB": "BAB XII",
+    "title": "PERTAHANAN NEGARA DAN KEAMANAN NEGARA**",
+    "pasal": [
+      {
+        "no": "30",
+        "ayat": [
+          "Tiap-tiap warga negara berhak dan wajib ikut serta dalam usaha pertahanan dan keamanan negara.**",
+          "Usaha pertahanan dan keamanan negara dilaksanakan melalui sistem pertahanan dan keamanan rakyat semesta oleh Tentara Nasional Indonesia dan Kepolisian Negara Republik Indonesia, sebagai kekuatan utama, dan rakyat, sebagai kekuatan pendukung.**",
+          "Tentara Nasional Indonesia terdiri atas Angkatan Darat, Angkatan laut dan Angkatan Udara sebagai alat negara bertugas mempertahankan, melindungi, dan memelihara keutuhan dan kedaulatan negara.**",
+          "Kepolisian Negara Republik Indonesia sebagai alat negara yang menjaga keamanan dan ketertiban masyarakat bertugas melindungi, mengayomi, melayani masyarakat, serta menegakkan hukum.**",
+          "Susunan dan kedudukan Tentara Nasional Indonesia, Kepolisian Negara Republik Indonesia, hubungan dan kewenangan Tentara Nasional Indonesia dan Kepolisian Negara Republik Indonesia di dalam menjalankan tugasnya, syarat-syarat keikutsertaan warga negara dalam usaha pertahanan dan keamanan diatur dengan undang-undang.**"
+        ]
+      }
+    ]
+  },
+  "18": {
+    "BAB": "BAB XIII",
+    "title": "PENDIDIKAN DAN KEBUDAYAAN",
+    "pasal": [
+      {
+        "no": "31",
+        "ayat": [
+          "Setiap warga negara berhak mendapat pendidikan.****",
+          "Setiap warga negara wajib mengikuti pendidikan dasar dan pemerintah wajib membiayainya.****",
+          "Pemerintah mengusahakan dan menyelenggarakan satu sistem pendidikan nasional, yang meningkatkan keimanan dan ketakwaan serta ahlak mulia dalam rangka mencerdaskan kehidupan bangsa, yang diatur dengan undang-undang.****",
+          "Negara memprioritaskan anggaran pendidikan sekurang-kurangnya dua puluh persen dari anggaran pendapatan dan belanja negara serta dari anggaran pendapatan dan belanja daerah untuk memenuhi kebutuhan penyelenggaraan pendidikan nasional.****",
+          "Pemerintah memajukan ilmu pengetahuan dan teknologi dengan menunjang tinggi nilai-nilai agama dan persatuan bangsa untuk kemajuan peradaban serta kesejahteraan umat manusia.****"
+        ]
+      },
+      {
+        "no": "32",
+        "ayat": [
+          "Negara memajukan kebudayaan nasional Indonesia di tengah peradaban dunia dengan menjamin kebebasan masyarakat dalam memelihara dan mengembangkan nilai-nilai budayanya.****",
+          "Negara menghormati dan memelihara bahasa daerah sebagai kekayaan budaya nasional.****"
+        ]
+      }
+    ]
+  },
+  "19": {
+    "BAB": "BAB XIV",
+    "title": "PEREKONOMIAN NASIONAL DAN KESEJAHTERAAN SOSIAL****",
+    "pasal": [
+      {
+        "no": "33",
+        "ayat": [
+          "Perekonomian disusun sebagai usaha bersama berdasar atas asas kekeluargaan.",
+          "Cabang-cabang produksi yang penting bagi negara dan yang menguasai hajat hidup orang banyak dikuasai oleh negara.",
+          "Bumi dan air dan kekayaan alam yang terkandung di dalamnya dikuasai oleh negara dan dipergunakan untuk sebesar-besar kemakmuran rakyat.",
+          "Perekonomian nasional diselenggarakan berdasar atas demokrasi ekonomi dengan prinsip kebersamaan, efisiensi berkeadilan, berkelanjutan, berwawasan lingkungan, kemandirian, serta dengan menjaga keseimbangan kemajuan dan kesatuan ekonomi nasional.****",
+          "Ketentuan lebih lanjut mengenai pelaksanaan pasal ini diatur dalam undang-undang.****"
+        ]
+      },
+      {
+        "no": "34",
+        "ayat": [
+          "Fakir miskin dan anak-anak terlantar dipelihara oleh negara.****",
+          "Negara mengembangkan sistem jaminan sosial bagi seluruh rakyat dan memberdayakan masyarakat yang lemah dan tidak mampu sesuai dengan martabat kemanusiaan.****",
+          "Negara bertanggung jawab atas penyediaan fasilitas pelayanan kesehatan dan fasilitas pelayanan umum yang layak.****",
+          "Ketentuan lebih lanjut mengenai pelaksanaan pasal ini diatur dalam undang-undang.****"
+        ]
+      }
+    ]
+  },
+  "20": {
+    "BAB": "BAB XV",
+    "title": "BENDERA, BAHASA, DAN LAMBANG NEGARA, SERTA LAGU KEBANGSAAN**",
+    "pasal": [
+      {
+        "no": "35",
+        "ayat": ["Bendera Negara Indonesia ialah sang merah Putih."]
+      },
+      {
+        "no": "36",
+        "ayat": ["Bahasa Negara ialah Bahasa Indonesia."]
+      },
+      {
+        "no": "36A",
+        "ayat": [
+          "Lambang Negara ialah Garuda Pancasila dengan semboyan Bhineka Tunggal Ika.**"
+        ]
+      },
+      {
+        "no": "36B",
+        "ayat": ["Lagu Kebangsaan ialah Indonesia Raya.**"]
+      },
+      {
+        "no": "36C",
+        "ayat": [
+          "Ketentuan lebih lanjut mengenai Bendera, Bahasa dan Lambang Negara, serta Lagu Kebangsaan diatur dengan undang-undang.**"
+        ]
+      }
+    ]
+  },
+  "21": {
+    "BAB": "BAB XVI",
+    "title": "PERUBAHAN UNDANG-UNDANG DASAR",
+    "pasal": [
+      {
+        "no": "37",
+        "ayat": [
+          "Usul perubahan pasal-pasal Undang-Undang Dasar dapat diagendakan dalam sidang Majelis Permusyawaratan Rakyat apabila diajukan oleh sekurang-kurangnya 1/3 dari jumlah anggota Majelis Permusyawaratan Rakyat.****",
+          "Setiap usul perubahan pasal-pasal Undang-Undang Dasar diajukan secara tertulis dan ditunjukkan dengan jelas bagian yang diusulkan untuk diubah beserta alasannya.****",
+          "Untuk mengubah pasal-pasal Undang-Undang Dasar, sidang Majelis Permusyawaratan Rakyat dihadiri oleh sekurang-kurangnya 2/3 dari jumlah anggota Majelis Permusyawaratan Rakyat.****",
+          "Putusan untuk mengubah pasal-pasal Undang-Undang Dasar dilakukan dengan persetujuan sekurang-kurangnya lima puluh persen ditambah satu anggota dari seluruh anggota Majelis Permusyawaratan Rakyat.****",
+          "Khusus mengenai bentuk Negara Kesatuan Republik Indonesia tidak dapat dilakukan perubahan.****"
+        ]
+      }
+    ]
+  },
+  "22": {
+    "BAB": "",
+    "title": "ATURAN PERALIHAN",
+    "pasal": [
+      {
+        "no": "I",
+        "ayat": [
+          "Segala peraturan perundang-undangan yang ada masih tetap berlaku selama belum diadakan yang baru menurut Undang-Undang Dasar ini.****"
+        ]
+      },
+      {
+        "no": "II",
+        "ayat": [
+          "Semua lembaga negara yang ada masih tetap berfungsi sepanjang untuk melaksanakan ketentuan Undang-Undang Dasar dan belum diadakan yang baru menurut Undang-Undang Dasar ini.****"
+        ]
+      },
+      {
+        "no": "III",
+        "ayat": [
+          "Mahkamah Konstitusi dibentuk selambat-lambatnya pada 17 Agustus 2003 dan sebelum dibentuk segala kewenangannya dilakukan oleh Mahkamah Agung.****"
+        ]
+      }
+    ]
+  },
+  "23": {
+    "BAB": "",
+    "title": "ATURAN TAMBAHAN",
+    "pasal": [
+      {
+        "no": "I",
+        "ayat": [
+          "Majelis Permusyawaratan Rakyat ditugasi untuk melakukan peninjauan terhadap materi dan status hukum Ketetapan Majelis Permusyawaratan Rakyat Sementara dan Ketetapan Majelis Permusyawaratan Rakyat untuk diambil putusan pada sidang Majelis Permusyawaratan Rakyat tahun 2003.****"
+        ]
+      },
+      {
+        "no": "II",
+        "ayat": [
+          "Dengan ditetapkannya perubahan Undang-Undang Dasar ini, Undang-Undang Dasar Negara Republik Indonesia tahun 1945 terdiri atas Pembukaan dan pasal-pasal****",
+          "Perubahan tersebut diputuskan dalam Rapat Paripurna Majelis Permusyawaratan Rakyat Republik Indonesia ke-6 (lanjutan) tanggal 10 Agustus 2002 Sidang Tahunan Majelis Permusyawaratan Rakyat Republik Indonesia, dan mulai berlaku pada tanggal ditetapkan.****"
+        ]
+      }
+    ]
+  }
 }
