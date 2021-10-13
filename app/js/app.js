@@ -22,9 +22,9 @@ let sidebarAnim = (sidebar) => {
 };
 
 //Display Content
-
+const uud45FileName = "/app/js/uud45.json";
 async function getMenu() {
-  let response = await fetch("uud45.json");
+  let response = await fetch(uud45FileName);
   const data = await response.json();
   let el = document.getElementById("list-menu");
   for (const prop in data) {
@@ -63,7 +63,7 @@ async function renderData(bab) {
   let article = document.getElementById("article");
   article.innerHTML = "";
 
-  let response = await fetch("uud45.json");
+  let response = await fetch(uud45FileName);
   const data = await response.json();
 
   let pasal = data[bab]["pasal"];
