@@ -133,7 +133,7 @@ function deleteMsgBox() {
   setTimeout(() => {
     msgBox.remove();
     sessionStorage.setItem("hasDeletedMsgBox", true);
-  }, 10000);
+  }, 30000);
 }
 
 document.addEventListener("DOMContentLoaded", async function (e) {
