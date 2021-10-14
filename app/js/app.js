@@ -109,9 +109,38 @@ function focusOn(e) {
   e.classList.add("selected");
 }
 
+function setAboutBtn() {
+  let aboutmeBtn = document.getElementById("about-btn");
+  let aboutmeModal = document.getElementById("aboutme-modal");
+  let closeBtn = document.getElementById("modalCloseBtn");
+
+  aboutmeBtn.addEventListener("click", () => {
+    aboutmeModal.style.display = "flex";
+  });
+
+  closeBtn.addEventListener("click", () => {
+    aboutmeModal.style.display = "none";
+  });
+}
+
+function deleteMsgBox() {
+  let msgBox = document.getElementById("msgBox");
+
+  if (sessionStorage.getItem("hasDeletedMsgBox") == "true") {
+    msgBox.remove();
+  }
+
+  setTimeout(() => {
+    msgBox.remove();
+    sessionStorage.setItem("hasDeletedMsgBox", true);
+  }, 10000);
+}
+
 document.addEventListener("DOMContentLoaded", async function (e) {
   getMenu();
   addClickMenuEvent();
+  setAboutBtn();
+  deleteMsgBox();
 
   let installBtn = document.getElementById("install-btn");
   installBtn.addEventListener("click", async () => {

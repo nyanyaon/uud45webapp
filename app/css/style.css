@@ -24,12 +24,11 @@ h1 {
 
 h2 {
   font-size: 1.25rem;
-  animation: slidein 0.4s ease-out;
 }
 
 p {
   font-size: 1rem;
-  animation: slidein calc(var(--order) * 0.1s) ease;
+  line-height: 1.5;
 }
 
 @keyframes slidein {
@@ -52,7 +51,124 @@ p {
   }
 }
 
+.btn {
+  border: none;
+  padding: 0.4rem 0.6rem;
+  border-radius: 0.15rem;
+  background: var(--text-dark);
+  color: var(--text-white);
+}
+
 /* Reset */
+
+.moreinfo {
+  display: flex;
+  align-items: center;
+}
+
+.msg-box {
+  border: 1px solid green;
+  padding: 0.4rem;
+  color: green;
+  margin-left: auto;
+}
+
+.about {
+  margin-left: auto;
+  padding: 1rem;
+  background-color: transparent;
+  border: 1px solid #bebebe;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0.8);
+}
+
+/* More Info */
+
+#aboutme-modal {
+  position: fixed;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  width: 100vw;
+  height: 100vh;
+}
+
+.modal__closebtn {
+  background: transparent;
+  border: none;
+  float: right;
+}
+
+.modal-box > .overlay {
+  background: rgba(0, 0, 0, 0.9);
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  animation: show 0.4s ease;
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.modal-box > .modal {
+  background: var(--bg-white);
+  padding: 1.25rem;
+  border-radius: 0.5rem;
+  margin: 5vw;
+  animation: slideup 0.4s ease;
+}
+
+@keyframes slideup {
+  from {
+    transform: translateY(20%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.profile > .photo {
+  float: right;
+  padding: 1rem;
+  background-color: #0a0a0a;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile__name {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.profile__name > h2 {
+  margin: 0.25rem 0;
+  animation: none;
+  font-size: 1.25rem;
+}
+
+.profile__name > h4 {
+  margin: 0.25rem 0;
+}
+
+.profile__desc p {
+  font-size: 1rem;
+}
+
+/* About Me Modal */
 
 .header {
   display: none;
@@ -86,6 +202,7 @@ p {
   bottom: 0;
   order: -1;
   background: var(--bg-white);
+  height: 100vh;
   width: 25vw;
   padding: 1.25rem;
 }
@@ -127,7 +244,7 @@ p {
   overflow-y: auto;
   overflow-x: hidden;
   font-size: 1rem;
-  height: auto;
+  height: 70vh;
 }
 
 .nav {
@@ -146,8 +263,6 @@ p {
   margin-bottom: 0.25rem;
   text-decoration: none;
   color: var(--text-dark);
-  animation: slidein 0.6s ease-out;
-  transition: background 0.2s ease, font-weight 0.1 s ease-out;
 }
 
 .nav > li > a:hover {
@@ -180,8 +295,16 @@ main {
   padding: 2rem;
 }
 
-main > article > h1 {
-  text-align: center;
+#article h1 {
+  font-size: 1.75rem;
+}
+
+#article h2 {
+  animation: slidein 0.4s ease-out;
+}
+
+#article p {
+  animation: slidein calc(var(--order) * 0.1s) ease;
 }
 
 /* main */
@@ -204,6 +327,20 @@ main > article > h1 {
 }
 
 @media only screen and (max-width: 768px) {
+  .profile__name > h2 {
+    margin: 0.25rem 0;
+    animation: none;
+    font-size: 1rem;
+  }
+
+  .profile__desc p {
+    font-size: 0.8rem;
+  }
+
+  .profile > .photo {
+    transform: scale(0.7);
+  }
+
   body {
     flex-direction: column;
     font-size: 0.8rem;
