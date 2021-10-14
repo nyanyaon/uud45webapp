@@ -327,6 +327,11 @@ main {
 }
 
 @media only screen and (max-width: 768px) {
+  .msg-box {
+    margin-right: 1.4rem;
+    margin-left: 1.4rem;
+  }
+
   .profile__name > h2 {
     margin: 0.25rem 0;
     animation: none;

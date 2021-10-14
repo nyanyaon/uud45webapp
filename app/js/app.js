@@ -123,18 +123,18 @@ function setAboutBtn() {
   });
 }
 
-function deleteMsgBox() {
-  let msgBox = document.getElementById("msgBox");
+// function deleteMsgBox() {
+//   let msgBox = document.getElementById("msgBox");
 
-  if (sessionStorage.getItem("hasDeletedMsgBox") == "true") {
-    msgBox.remove();
-  }
+//   if (sessionStorage.getItem("hasDeletedMsgBox") == "true") {
+//     msgBox.remove();
+//   }
 
-  setTimeout(() => {
-    msgBox.remove();
-    sessionStorage.setItem("hasDeletedMsgBox", true);
-  }, 10000);
-}
+//   setTimeout(() => {
+//     msgBox.remove();
+//     sessionStorage.setItem("hasDeletedMsgBox", true);
+//   }, 10000);
+// }
 
 document.addEventListener("DOMContentLoaded", async function (e) {
   getMenu();
