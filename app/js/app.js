@@ -21,11 +21,51 @@ let sidebarAnim = (sidebar) => {
   }, 400);
 };
 
-//Display Content
-const uud45FileName = "/app/js/uud45.json";
-async function getMenu() {
+// Storage
+
+function checkStorage() {
+  if (typeof (localStorage !== "undefined")) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+const UUD45_KEY = "uud45";
+let saveContentToStorage = async () => {
+  if (!checkStorage()) {
+    alert("Mohon maaf kami tidak bisa melakukannya :(");
+
+    return;
+  }
+
   let response = await fetch(uud45FileName);
   const data = await response.json();
+
+  localStorage.setItem(UUD45_KEY, JSON.stringify(data));
+};
+
+function hasDataInStorage() {
+  if (localStorage.getItem(UUD45_KEY) !== null) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+//Display Content
+
+const uud45FileName = "/app/js/uud45.json";
+async function getMenu() {
+  let data = "";
+  if (hasDataInStorage()) {
+    let dataCache = localStorage.getItem(UUD45_KEY);
+    data = JSON.parse(dataCache);
+  } else {
+    let response = await fetch(uud45FileName);
+    data = await response.json();
+  }
+
   let el = document.getElementById("list-menu");
   for (const prop in data) {
     el.insertAdjacentHTML(
@@ -62,9 +102,14 @@ function createPWithoutOrder(text) {
 async function renderData(bab) {
   let article = document.getElementById("article");
   article.innerHTML = "";
-
-  let response = await fetch(uud45FileName);
-  const data = await response.json();
+  let data = "";
+  if (hasDataInStorage()) {
+    let dataCache = localStorage.getItem(UUD45_KEY);
+    data = JSON.parse(dataCache);
+  } else {
+    let response = await fetch(uud45FileName);
+    data = await response.json();
+  }
 
   let pasal = data[bab]["pasal"];
 
@@ -131,9 +176,43 @@ function deleteMsgBox() {
   }
 
   setTimeout(() => {
-    msgBox.remove();
+    msgBox.style.animation = "exitSlideUp 0.4s ease";
     sessionStorage.setItem("hasDeletedMsgBox", true);
-  }, 30000);
+  }, 3000);
+
+  setTimeout(() => {
+    msgBox.remove();
+  }, 3400);
+}
+
+function checkIfInstalled() {
+  if (localStorage.getItem("IS_INSTALL") !== "true") {
+    return;
+  }
+
+  let installBtn = document.getElementById("install-btn");
+  installBtn.innerHTML = `<i class="fas fa-check"></i><span class="install-text"> Installed</span>`;
+  installBtn.classList.remove("install-pwa");
+  installBtn.classList.add("installed");
+}
+
+function setUpdateNetworkStatus() {
+  let networkStatusBox = document.getElementById("networkStatus");
+
+  window.addEventListener("online", updateStatus);
+  window.addEventListener("offline", updateStatus);
+
+  function updateStatus(e) {
+    if (navigator.onLine) {
+      networkStatusBox.innerText = "Online";
+      networkStatusBox.classList.add("online");
+      networkStatusBox.classList.remove("offline");
+    } else {
+      networkStatusBox.innerText = "Offline";
+      networkStatusBox.classList.remove("online");
+      networkStatusBox.classList.add("offline");
+    }
+  }
 }
 
 document.addEventListener("DOMContentLoaded", async function (e) {
@@ -141,7 +220,14 @@ document.addEventListener("DOMContentLoaded", async function (e) {
   addClickMenuEvent();
   setAboutBtn();
   deleteMsgBox();
+  setInstallBtn();
+  checkIfInstalled();
+  setUpdateNetworkStatus();
+});
 
+// service worker
+
+function setInstallBtn() {
   let installBtn = document.getElementById("install-btn");
   installBtn.addEventListener("click", async () => {
     // Hide the app provided install promotion
@@ -150,18 +236,27 @@ document.addEventListener("DOMContentLoaded", async function (e) {
     deferredPrompt.prompt();
     // Wait for the user to respond to the prompt
     const { outcome } = await deferredPrompt.userChoice;
+
+    if (outcome === "accepted") {
+      installBtn.innerHTML = `<i class="fas fa-check"></i><span class="install-text"> Installed</span>`;
+      installBtn.classList.remove("install-pwa");
+      installBtn.classList.add("installed");
+    }
     // Optionally, send analytics event with outcome of user choice
     console.log(`User response to the install prompt: ${outcome}`);
     // We've used the prompt, and can't use it again, throw it away
     deferredPrompt = null;
   });
-});
+}
 
-// window.addEventListener("load", () => {
-//     if ("serviceWorker" in navigator) {
-//       navigator.serviceWorker.register("service-worker.js");
-//     }
-// });
+window.addEventListener("load", () => {
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker
+      .register("/sw.js")
+      .then((reg) => console.log("service worker registered"))
+      .catch((err) => console.log("service worker not registered", err));
+  }
+});
 
 // Initialize deferredPrompt for use later to show browser install prompt.
 let deferredPrompt;
@@ -173,12 +268,13 @@ window.addEventListener("beforeinstallprompt", (e) => {
   deferredPrompt = e;
   // Update UI notify the user they can install the PWA
   // Optionally, send analytics event that PWA install promo was shown.
-  console.log(`'beforeinstallprompt' event was fired.`);
 });
 
-window.addEventListener("appinstalled", () => {
+window.addEventListener("appinstalled", (evt) => {
   // Clear the deferredPrompt so it can be garbage collected
   deferredPrompt = null;
+
   // Optionally, send analytics event to indicate successful install
-  console.log("app has installed");
+  localStorage.setItem("IS_INSTALL", true);
+  saveContentToStorage();
 });

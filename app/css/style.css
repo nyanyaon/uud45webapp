@@ -4,6 +4,7 @@
   --bg-white: #fbfbfb;
   --text-dark: #343434;
   --text-white: #fff;
+  --primary-color: #343434;
 }
 
 body {
@@ -54,8 +55,8 @@ p {
 .btn {
   border: none;
   padding: 0.4rem 0.6rem;
-  border-radius: 0.15rem;
-  background: var(--text-dark);
+  border-radius: 0.25rem;
+  background: var(--primary-color);
   color: var(--text-white);
 }
 
@@ -67,10 +68,54 @@ p {
 }
 
 .msg-box {
-  border: 1px solid green;
-  padding: 0.4rem;
+  position: fixed;
+  border: 1px solid #adadad;
+  border-radius: 0.5rem;
   color: green;
-  margin-left: auto;
+  left: 40vw;
+  padding: 0.75rem;
+  background: #ffff;
+  box-shadow: 0px 3px 3px rgb(0 0 0 / 30%);
+  z-index: 10;
+  animation: slidein ease 0.4s;
+}
+
+@keyframes exitSlideUp {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-40%);
+  }
+}
+
+.install-pwa:hover {
+  background: var(--text-white);
+  color: var(--text-dark);
+  border: 1px solid var(--text-dark);
+}
+
+.installed {
+  background: #37c200;
+  border-radius: 0.25rem;
+  color: #fff;
+}
+
+.network-status {
+  margin-left: 1rem;
+  background: transparent;
+}
+
+.online {
+  color: #37c200;
+  border: 1px solid #37c200;
+}
+
+.offline {
+  color: red;
+  border: 1px solid red;
 }
 
 .about {
@@ -83,6 +128,10 @@ p {
   justify-content: center;
   align-items: center;
   transform: scale(0.8);
+}
+
+.about:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
 }
 
 /* More Info */
@@ -176,6 +225,7 @@ p {
   top: 0;
   background: var(--bg-white);
   padding: 1.25rem;
+  z-index: 10;
 }
 
 .open-btn {
@@ -205,6 +255,7 @@ p {
   height: 100vh;
   width: 25vw;
   padding: 1.25rem;
+  box-shadow: -30px 0px 100px rgba(0, 0, 0, 0.25);
 }
 
 .close-btn {
@@ -330,6 +381,7 @@ main {
   .msg-box {
     margin-right: 1.4rem;
     margin-left: 1.4rem;
+    left: 0;
   }
 
   .profile__name > h2 {
