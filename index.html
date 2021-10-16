@@ -126,10 +126,10 @@
           <span class="install-text">Install</span>
         </button>
         <button class="btn network-status online" id="networkStatus">
-          Online
+          <i class="fas fa-circle"></i> Online
         </button>
-        <button class="btn network-status online" id="networkStatus">
-          Send Me Email
+        <button class="btn feedback" id="feedbackBtn">
+          <i class="fas fa-paper-plane"></i> Mail Me
         </button>
         <div id="msgBox" class="msg-box">
           <b>[15/10/2021 2.44]</b> I am really excited to finish this app :)
@@ -281,6 +281,36 @@
         </p>
       </footer>
     </aside>
+    <section id="feedbackModal" class="modal-box">
+      <div class="modal">
+        <button id="modalFeedbackCloseBtn" class="modal__closebtn">
+          <i class="fas fa-times"></i>
+        </button>
+        <form class="feedback-form" action="/" netlify>
+          <h2>Send Us You're Thought</h2>
+          <p>Tell Us What you like and what doesn't fit well.</p>
+          <div class="form-group">
+            <label for="name">Nama: </label>
+            <input type="text" id="name" name="name" />
+          </div>
+          <div class="form-group">
+            <label for="comment">Comment: </label>
+            <textarea
+              name="comment"
+              id="comment"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <div class="form-group">
+            <button type="submit">
+              SEND <i class="fas fa-paper-plane"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+      <div class="overlay"></div>
+    </section>
     <section id="aboutme-modal" class="modal-box">
       <div class="modal">
         <button id="modalCloseBtn" class="modal__closebtn">

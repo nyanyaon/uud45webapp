@@ -31,6 +31,10 @@ function checkStorage() {
   }
 }
 
+function eraseStorage() {
+  localStorage.clear();
+}
+
 const UUD45_KEY = "uud45";
 let saveContentToStorage = async () => {
   if (!checkStorage()) {
@@ -168,6 +172,20 @@ function setAboutBtn() {
   });
 }
 
+function setFeedBackBtn() {
+  let feedbackBtn = document.getElementById("feedbackBtn");
+  let feedbackModal = document.getElementById("feedbackModal");
+  let closeBtnFeedback = document.getElementById("modalFeedbackCloseBtn");
+
+  feedbackBtn.addEventListener("click", () => {
+    feedbackModal.style.display = "flex";
+  });
+
+  closeBtnFeedback.addEventListener("click", () => {
+    feedbackModal.style.display = "none";
+  });
+}
+
 function deleteMsgBox() {
   let msgBox = document.getElementById("msgBox");
 
@@ -221,6 +239,7 @@ document.addEventListener("DOMContentLoaded", async function (e) {
   setAboutBtn();
   deleteMsgBox();
   setInstallBtn();
+  setFeedBackBtn();
   checkIfInstalled();
   setUpdateNetworkStatus();
 });
@@ -249,14 +268,14 @@ function setInstallBtn() {
   });
 }
 
-window.addEventListener("load", () => {
-  if ("serviceWorker" in navigator) {
-    navigator.serviceWorker
-      .register("/sw.js")
-      .then((reg) => console.log("service worker registered"))
-      .catch((err) => console.log("service worker not registered", err));
-  }
-});
+// window.addEventListener("load", () => {
+//   if ("serviceWorker" in navigator) {
+//     navigator.serviceWorker
+//       .register("/sw.js")
+//       .then((reg) => console.log("service worker registered"))
+//       .catch((err) => console.log("service worker not registered", err));
+//   }
+// });
 
 // Initialize deferredPrompt for use later to show browser install prompt.
 let deferredPrompt;
@@ -266,6 +285,7 @@ window.addEventListener("beforeinstallprompt", (e) => {
   e.preventDefault();
   // Stash the event so it can be triggered later.
   deferredPrompt = e;
+  eraseStorage();
   // Update UI notify the user they can install the PWA
   // Optionally, send analytics event that PWA install promo was shown.
 });

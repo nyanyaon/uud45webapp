@@ -91,6 +91,10 @@ p {
   }
 }
 
+.install-pwa {
+  border: 1px solid var(--text-dark);
+}
+
 .install-pwa:hover {
   background: var(--text-white);
   color: var(--text-dark);
@@ -118,6 +122,10 @@ p {
   border: 1px solid red;
 }
 
+.feedback {
+  margin-left: 1rem;
+}
+
 .about {
   margin-left: auto;
   padding: 1rem;
@@ -136,7 +144,62 @@ p {
 
 /* More Info */
 
-#aboutme-modal {
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback-form > h2 {
+  margin: 0;
+}
+
+.feedback-form > p {
+  margin-top: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.form-group > label {
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.form-group > input,
+.form-group > textarea {
+  padding: 0.5rem;
+  border: 1px solid #888888;
+  font-weight: 500;
+  font-size: 1rem;
+  font-family: "Nunito Sans", sans-serif;
+  border-radius: 0.25rem;
+}
+
+.form-group > button {
+  margin-left: auto;
+  padding: 0.5rem 1rem;
+  border: 1px solid #343434;
+  background-color: #343434;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+  font-family: "Nunito Sans", sans-serif;
+  border-radius: 0.25rem;
+}
+
+.form-group > button:hover {
+  border: 1px solid #343434;
+  background-color: #fff;
+  color: #343434;
+}
+
+/* feedback Modal */
+
+.modal-box {
   position: fixed;
   display: none;
   justify-content: center;
@@ -251,6 +314,7 @@ p {
   top: 0;
   bottom: 0;
   order: -1;
+  z-index: 15;
   background: var(--bg-white);
   height: 100vh;
   width: 25vw;
@@ -378,6 +442,28 @@ main {
 }
 
 @media only screen and (max-width: 768px) {
+  .form-group > input,
+  .form-group > textarea {
+    padding: 0.5rem;
+    border: 1px solid #888888;
+    font-weight: 500;
+    font-size: 0.8rem;
+    font-family: "Nunito Sans", sans-serif;
+    border-radius: 0.25rem;
+  }
+
+  .form-group > button {
+    margin-left: auto;
+    padding: 0.5rem 1rem;
+    border: 1px solid #343434;
+    background-color: #343434;
+    color: #fff;
+    font-weight: 700;
+    font-size: 0.9rem;
+    font-family: "Nunito Sans", sans-serif;
+    border-radius: 0.25rem;
+  }
+
   .msg-box {
     margin-right: 1.4rem;
     margin-left: 1.4rem;
